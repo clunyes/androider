@@ -1,7 +1,5 @@
 package creational_design_pattern.prototype;
 
-import structural_design_pattern.proxy.ProductManager;
-
 public class Client {
 
     public static void main(String[] args) {

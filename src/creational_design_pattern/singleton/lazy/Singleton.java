@@ -21,7 +21,7 @@ public class Singleton {
         return single;
     }
 //双重检查锁定
-    public static Singleton getSingleton3() {
+    public static Singleton getSingleton03() {
         if (single == null) {
             synchronized (Singleton.class) {
                 if (single == null) {

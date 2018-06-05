@@ -5,7 +5,164 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422ff142-4017-46a4-845e-76b86fcb4aa5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/acm/_01/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/acm/_02/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/state/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/structural_design_pattern/proxy/dynamic/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/structural_design_pattern/proxy/dynamic/ProxyFactory.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/kang.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/kang.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/ChainOfResponsibility/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/ChainOfResponsibility/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/command/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/command/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/iterator/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/iterator/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/mediator/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/mediator/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/memento/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/memento/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/observer/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/observer/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/strategy/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/strategy/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/visitor/package-info.java" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/visitor/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/creational_design_pattern/prototype/Client.java" afterPath="$PROJECT_DIR$/src/creational_design_pattern/prototype/Client.java" />
+      <change beforePath="$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/Singleton.java" afterPath="$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/Singleton.java" />
+      <change beforePath="$PROJECT_DIR$/src/structural_design_pattern/bridge/package-info.java" afterPath="$PROJECT_DIR$/src/structural_design_pattern/bridge/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/structural_design_pattern/composite/package-info.java" afterPath="$PROJECT_DIR$/src/structural_design_pattern/composite/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/structural_design_pattern/proxy/Client.java" afterPath="$PROJECT_DIR$/src/structural_design_pattern/proxy/staticProxy/Client.java" />
+      <change beforePath="$PROJECT_DIR$/src/structural_design_pattern/proxy/ICoder.java" afterPath="$PROJECT_DIR$/src/structural_design_pattern/proxy/base/ICoder.java" />
+      <change beforePath="$PROJECT_DIR$/src/structural_design_pattern/proxy/JavaCoder.java" afterPath="$PROJECT_DIR$/src/structural_design_pattern/proxy/base/JavaCoder.java" />
+      <change beforePath="$PROJECT_DIR$/src/structural_design_pattern/proxy/ProductManager.java" afterPath="$PROJECT_DIR$/src/structural_design_pattern/proxy/staticProxy/ProductManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/structural_design_pattern/proxy/package-info.java" afterPath="$PROJECT_DIR$/src/structural_design_pattern/proxy/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/ChainOfResponsibility/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/ChainOfResponsibility/FaceFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/ChainOfResponsibility/Filter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/ChainOfResponsibility/FilterChain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/ChainOfResponsibility/HtmlFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/ChainOfResponsibility/Request.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/ChainOfResponsibility/Response.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/ChainOfResponsibility/SensitiveFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/command/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/command/Command.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/command/CommandChange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/command/CommandOff.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/command/CommandOn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/command/Control.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/command/Tv.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/iterator/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/iterator/ConcreteIterator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/iterator/ConcreteList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/iterator/Iterator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/iterator/List.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/mediator/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/mediator/MotherBoard.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/mediator/colleague/AudioCard.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/mediator/colleague/CDDriver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/mediator/colleague/CPU.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/mediator/colleague/VideoCard.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/mediator/interf/Colleage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/mediator/interf/Mediator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/memento/CareTaker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/memento/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/memento/Memento.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/memento/Originator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/observer/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/observer/NewsPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/observer/Observer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/observer/Reader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/observer/Subject.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/state/AuxLift.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/state/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/state/LiftInterface.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/strategy/AdvanceMemberStrategy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/strategy/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/strategy/IntermediateMemberStrategy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/strategy/MemberStrategy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/strategy/Price.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/strategy/PrimaryMemberStrategy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/templateMethod/AbstractPerson.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/templateMethod/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/templateMethod/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/templateMethod/Teacher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/visitor/City.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/visitor/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/visitor/Element.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/visitor/FirstTimeVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/visitor/Museum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/visitor/Park.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behavioral_design_pattern/visitor/Visitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/Boyin747.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/Boyin757.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/ChanganFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/Dongche.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/Factory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/Gaotie.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/HangzhouFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/Plane.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/abstractFactory/Train.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/builder/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/builder/Student$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/builder/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/factoryMethod/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/factoryMethod/Door.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/factoryMethod/DoorA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/factoryMethod/DoorAFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/factoryMethod/DoorB.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/factoryMethod/DoorBFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/factoryMethod/DoorFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/prototype/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/prototype/ConcretePrototype1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/prototype/ConcretePrototype2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/prototype/Prototype.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/prototype/PrototypeManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/simpleFactory/Chips.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/simpleFactory/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/simpleFactory/Food.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/simpleFactory/FoodFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/simpleFactory/McChicken.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/singleton/hungry/Singleton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/singleton/lazy/BetterSingleton$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/singleton/lazy/BetterSingleton$LazyHolder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/singleton/lazy/BetterSingleton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/creational_design_pattern/singleton/lazy/Singleton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/ZxingKit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/adapter/AmericaAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/adapter/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/adapter/Honor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/adapter/ThreePinSocket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/adapter/ThreePinSocketAmerica.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/adapter/TwoPinSocket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/adapter/TwoPinSocketChina.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/bridge/Circle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/bridge/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/bridge/Draw.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/bridge/DrawGreenCircle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/bridge/DrawRedCircle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/bridge/Shape.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/composite/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/composite/Company.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/composite/ConcreteCompany.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/composite/FinanceDepartment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/composite/HRDepartment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/conclude.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/decorator/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/decorator/Decorator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/decorator/DecoratorOne.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/decorator/DecoratorTwo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/decorator/DecoratorZero.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/decorator/Human.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/decorator/Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/facde/Camera.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/facde/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/facde/Light.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/facde/MyFacade.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/facde/Sensor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/flyweight/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/flyweight/ConcreteFlyweight.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/flyweight/Flyweight.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/flyweight/FlyweightFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/proxy/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/proxy/ICoder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/proxy/JavaCoder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural_design_pattern/proxy/ProductManager.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +172,78 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JavaTest$Main.coverage" NAME="Main Coverage Results" MODIFIED="1527824332974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>acm._01.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaTest" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/strategy/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="176">
+              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/visitor/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Visitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/visitor/Visitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/visitor/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/structural_design_pattern/proxy/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/structural_design_pattern/facde/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -37,11 +252,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaTest.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaTest.iml">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/Teacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractPerson.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/AbstractPerson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -54,10 +289,23 @@
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
-        <option value="package-info" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compu</find>
+      <find>computer</find>
+      <find>ans</find>
+      <find>n</find>
+      <find>getProxyInstance</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\workspace_study\JavaTest\src\behavioral_design_pattern\memento</dir>
+      <dir>E:\workspace_study\JavaTest\src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,29 +318,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/flyweight/FlyweightFactory.java" />
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/flyweight/Client.java" />
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/flyweight/package-info.java" />
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/package-info.java" />
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/ICode.java" />
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/JavaCoder.java" />
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/ProductManager.java" />
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/Client.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/package-info.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/simpleFactory/package-info.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/simpleFactory/Food.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/simpleFactory/McChicken.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/simpleFactory/Chips.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/simpleFactory/FoodFactory.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/simpleFactory/Client.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/package-info.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/Door.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorA.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorB.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorC.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorFactory.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorAFactory.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorBFactory.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/Client.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/package-info.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Plane.java" />
@@ -116,11 +341,34 @@
         <option value="$PROJECT_DIR$/src/creational_design_pattern/prototype/Client.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/package-info.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/package-info.java" />
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/Singleton.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/hungry/Singleton.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/BetterSingleton.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/staticProxy/ProductManager.java" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/base/ICoder.java" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/base/JavaCoder.java" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/staticProxy/Client.java" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/package-info.java" />
+        <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/bridge/package-info.java" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/composite/package-info.java" />
+        <option value="$PROJECT_DIR$/src/acm/P1.java" />
+        <option value="$PROJECT_DIR$/src/acm/Main.java" />
+        <option value="$PROJECT_DIR$/src/acm/_01/Main.java" />
+        <option value="$PROJECT_DIR$/src/acm/_02/Main.java" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/dynamic/Client.java" />
+        <option value="$PROJECT_DIR$/src/structural_design_pattern/proxy/dynamic/ProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/behavioral_design_pattern/ChainOfResponsibility/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/command/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/iterator/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/mediator/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/memento/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/observer/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/state/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/strategy/Client.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/strategy/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/package-info.java" />
+        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/visitor/package-info.java" />
       </list>
     </option>
   </component>
@@ -130,9 +378,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
@@ -154,8 +401,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -169,17 +416,57 @@
               <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral_design_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="templateMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="structural_design_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/workspace_study/JavaTest/src/creational_design_pattern/prototype/PrototypeManager.java" />
   </component>
   <component name="RecentsManager">
@@ -203,11 +490,11 @@
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="creational_design_pattern.abstractFactory.*" />
+          <option name="PATTERN" value="behavioral_design_pattern.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="creational_design_pattern.abstractFactory.Client" />
+      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.mediator.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -222,11 +509,11 @@
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="creational_design_pattern.builder.*" />
+          <option name="PATTERN" value="behavioral_design_pattern.templateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="creational_design_pattern.builder.Client" />
+      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.templateMethod.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -241,11 +528,30 @@
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="creational_design_pattern.prototype.*" />
+          <option name="PATTERN" value="behavioral_design_pattern.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="creational_design_pattern.prototype.Client" />
+      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.visitor.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaTest" />
+      <envs />
+    </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="behavioral_design_pattern.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.observer.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -260,49 +566,11 @@
     <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="creational_design_pattern.simpleFactory.*" />
+          <option name="PATTERN" value="behavioral_design_pattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="creational_design_pattern.simpleFactory.Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaTest" />
-      <envs />
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="creational_design_pattern.factoryMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="creational_design_pattern.factoryMethod.Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaTest" />
-      <envs />
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="structural_design_pattern.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="structural_design_pattern.bridge.Client" />
+      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.strategy.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -696,9 +964,9 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Client (5)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client (5)" />
       <item index="3" class="java.lang.String" itemvalue="Application.Client (2)" />
       <item index="4" class="java.lang.String" itemvalue="Application.Client (3)" />
     </list>
@@ -706,9 +974,9 @@
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Client (3)" />
         <item index="1" class="java.lang.String" itemvalue="Application.Client (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Client (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Client (5)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Client (5)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Client (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -759,65 +1027,57 @@
       <workItem from="1512953513012" duration="2509000" />
       <workItem from="1524645697648" duration="6000" />
       <workItem from="1524645808366" duration="40000" />
+      <workItem from="1527729135292" duration="10124000" />
+      <workItem from="1527816575576" duration="29889000" />
+      <workItem from="1528159980303" duration="5256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132746000" />
+    <option name="totallyTimeSpent" value="180816000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33816963" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25641027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.258547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25052193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -828,338 +1088,283 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/structural_design_pattern/proxy/dynamic/ProxyFactory.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/structural_design_pattern/proxy/dynamic/Client.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/structural_design_pattern/proxy/dynamic/Client.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/acm/_01/Main.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="32" />
+      <option name="time" value="70" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>input.hasNext()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>input</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>charArr</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>input.next()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>charArr[x][y]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>charArr[x][y] == '.'</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>charArr[i][m]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>charArr[i][m] == 'O'</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>put(x, y)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/simpleFactory/FoodFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/Door.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorC.java" />
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/command/CommandOff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorBFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorAFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/DoorB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/simpleFactory/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/factoryMethod/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/command/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Boyin757.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Gaotie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/ChanganFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/HangzhouFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Train.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Boyin747.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Dongche.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/abstractFactory/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/builder/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="84" lean-forward="false" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/builder/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/builder/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/Prototype.java" />
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/prototype/ConcretePrototype2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_design_pattern/proxy/ProductManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/prototype/PrototypeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/prototype/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/prototype/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/prototype/Prototype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/singleton/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/prototype/ConcretePrototype1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/BetterSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/command/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/iterator/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        <state relative-caret-position="22">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaTest/creational_design_pattern/builder/Student.class" />
-    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/ChainOfResponsibility/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_design_pattern/singleton/hungry/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/ChainOfResponsibility/package-info.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/iterator/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural_design_pattern/proxy/ProductManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural_design_pattern/proxy/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/iterator/ConcreteIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/ZxingKit.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/iterator/ConcreteList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="54" column="49" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="49" />
+        <state relative-caret-position="110">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/iterator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_design_pattern/facde/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural_design_pattern/proxy/package-info.java">
+    <entry file="file://$PROJECT_DIR$/src/structural_design_pattern/facde/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_design_pattern/facde/MyFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/mediator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/mediator/interf/Mediator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/mediator/colleague/CDDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/mediator/colleague/CPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/mediator/colleague/VideoCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/mediator/MotherBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/mediator/colleague/AudioCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/mediator/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/memento/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/memento/CareTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/memento/Memento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/memento/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/memento/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural_design_pattern/proxy/ICoder.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/observer/NewsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -1167,7 +1372,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural_design_pattern/proxy/JavaCoder.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/observer/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/observer/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/state/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/state/LiftInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/state/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/state/AuxLift.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1175,10 +1423,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_design_pattern/proxy/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/strategy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/strategy/Price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/strategy/AdvanceMemberStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/strategy/PrimaryMemberStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/strategy/MemberStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/strategy/IntermediateMemberStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/AbstractPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/templateMethod/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/visitor/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/visitor/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/strategy/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral_design_pattern/visitor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_design_pattern/facde/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
