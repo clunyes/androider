@@ -11,5 +11,4 @@ package structural_design_pattern.proxy;
  *
  * 动态代理：静态代理，会造成代理类多。动态代理可以实现aop编程
  *
- * cglib代理：不需要对象实现接口
  */
