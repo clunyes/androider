@@ -5,3 +5,7 @@ package behavioral_design_pattern.command;
  *
  * 将操作作为对象，分离请求者和执行者。
  */
+
+/**
+ * android中常见的handler就是command模式，message及内部的looper和handler
+ */

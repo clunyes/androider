@@ -2,7 +2,7 @@ package arithmetic;
 
 public class bubbleSort {
     public static void main(String[] args) {
-        int[] arr = {6, 3, 8, 2, 9, 1};
+        int[] arr = {21, 32, 43, 98, 54, 45, 23, 4, 66, 86,66,45};
         System.out.println("排序前数组为：");
         for (int num : arr) {
             System.out.print(num + " ");
