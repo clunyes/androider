@@ -24,6 +24,6 @@ public class selectionSort {
         int[] b = { 21, 32, 43, 98, 54, 45, 23, 4, 66, 86,66,45 };
         selectionSort(b);
         for (int i : b)
-            System.out.print(i + " ");
+            System.out.print(i + "-");
     }
 }
