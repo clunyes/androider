@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422ff142-4017-46a4-845e-76b86fcb4aa5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/core/gc.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/core/jvm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/core/memoryleak.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/newtech/oauth2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/newtech/reactNativeConcept.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/newtech/flutter.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaTest.iml" afterPath="$PROJECT_DIR$/JavaTest.iml" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/ChainOfResponsibility/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/ChainOfResponsibility/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/creational_design_pattern/singleton/lazy/BetterSingleton.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/bridge/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/bridge/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facde/Camera.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facade/Camera.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facde/Client.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facade/Client.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facde/Light.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facade/Light.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facde/MyFacade.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facade/MyFacade.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facde/Sensor.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facade/Sensor.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facde/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facade/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/flyweight/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/flyweight/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/newtech/reactNativeConcept.java" afterPath="$PROJECT_DIR$/src/newtech/reactNativeConcept.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,18 +34,48 @@
       <file leaf-file-name="reactNativeConcept.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/newtech/reactNativeConcept.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="415">
+              <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jvm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flutter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/newtech/flutter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/collection/collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jvm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/core/jvm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="575">
               <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="memoryleak.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/core/memoryleak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -80,7 +94,7 @@
       <file leaf-file-name="gc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/core/gc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="428">
               <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
@@ -123,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/creational_design_pattern/prototype/Client.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/package-info.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/lazy/package-info.java" />
         <option value="$PROJECT_DIR$/src/creational_design_pattern/singleton/hungry/Singleton.java" />
@@ -172,8 +185,9 @@
         <option value="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/ChainOfResponsibility/package-info.java" />
         <option value="$PROJECT_DIR$/src/java/core/gc.java" />
         <option value="$PROJECT_DIR$/src/java/core/memoryleak.java" />
-        <option value="$PROJECT_DIR$/src/newtech/reactNativeConcept.java" />
         <option value="$PROJECT_DIR$/src/java/core/jvm.java" />
+        <option value="$PROJECT_DIR$/src/java/collection/collection.java" />
+        <option value="$PROJECT_DIR$/src/newtech/reactNativeConcept.java" />
       </list>
     </option>
   </component>
@@ -227,6 +241,13 @@
               <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
@@ -844,12 +865,12 @@
       <workItem from="1532651734963" duration="589000" />
       <workItem from="1532740425430" duration="3963000" />
       <workItem from="1532911020646" duration="6773000" />
-      <workItem from="1532997440332" duration="1892000" />
+      <workItem from="1532997440332" duration="5273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270924000" />
+    <option name="totallyTimeSpent" value="274305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,7 +894,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -989,13 +1010,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/state/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/observer/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -1291,13 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design_pattern/creational_design_pattern/singleton/lazy/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1305,25 +1312,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/core/memoryleak.java">
+    <entry file="file://$PROJECT_DIR$/src/java/collection/collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="437">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newtech/reactNativeConcept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/core/gc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="415">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1336,10 +1336,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/newtech/flutter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/core/gc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/core/jvm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/core/memoryleak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>
