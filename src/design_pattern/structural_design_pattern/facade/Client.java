@@ -1,4 +1,4 @@
-package design_pattern.structural_design_pattern.facde;
+package design_pattern.structural_design_pattern.facade;
 
 public class Client {
     public static void main(String[] args) {

@@ -6,5 +6,6 @@ package design_pattern.behavioral_design_pattern.ChainOfResponsibility;
  */
 
 /**
- * okhttp的intercepter拦截器，用的就是责任链模式，巧妙的把业务和请求响应结合起来
+ * okhttp的intercepter拦截器，用的就是责任链模式，巧妙的把业务和请求响应结合起来。
+ * android 事件分发机制
  */

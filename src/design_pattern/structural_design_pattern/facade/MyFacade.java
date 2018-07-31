@@ -1,4 +1,4 @@
-package design_pattern.structural_design_pattern.facde;
+package design_pattern.structural_design_pattern.facade;
 
 public class MyFacade {
     private Camera camera1, camera2;

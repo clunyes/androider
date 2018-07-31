@@ -1,4 +1,4 @@
-package java;
+package java.collection;
 
 import java.util.*;
 
