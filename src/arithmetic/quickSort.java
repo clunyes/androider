@@ -7,7 +7,6 @@ public class quickSort {
 
     public static void main(String[] args) {
         int[] a = {21, 32, 43, 98, 54, 45, 23, 4, 66, 86,66,45};
-        System.out.println(Arrays.toString(a));
         quickSort(a);
         System.out.println(Arrays.toString(a));
     }
@@ -20,7 +19,6 @@ public class quickSort {
 
     private static void quickSort(int[] a, int low, int high) {
         //1,找到递归算法的出口
-        System.out.println(times++);
         if (low > high) {
             return;
         }
@@ -33,11 +31,11 @@ public class quickSort {
         while (i < j) { // 从表的两端交替向中间扫描
             while (i < j && a[j] >= key)
                 j--;
-            if (i < j)
-                a[i++] = a[j];// 用比基准小的记录替换低位记录
+//            if (i < j)
+                a[i] = a[j];// 用比基准小的记录替换低位记录
             while (i < j && a[i] < key)
                 i++;
-            if (i < j) // 用比基准大的记录替换高位记录
+//            if (i < j) // 用比基准大的记录替换高位记录
                 a[j] = a[i];
         }
         a[i] = key;// 将基准数值替换回 a[i]

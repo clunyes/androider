@@ -9,4 +9,5 @@ package design_pattern.behavioral_design_pattern.strategy;
  */
 /**
  * android中 animation.setInterpolator()，android实现了很多插值器
+ * 不同的adapter即不同的策略
  */

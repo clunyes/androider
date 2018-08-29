@@ -1,5 +1,7 @@
 package arithmetic;
 
+import java.util.Arrays;
+
 public class bubbleSort {
     public static void main(String[] args) {
         int[] arr = {21, 32, 43, 98, 54, 45, 23, 4, 66, 86,66,45};
@@ -12,7 +14,6 @@ public class bubbleSort {
                 }
             }
         }
-        System.out.println();
-        System.out.println("排序后的数组为：");
+        System.out.println(Arrays.toString(arr));
     }
 }

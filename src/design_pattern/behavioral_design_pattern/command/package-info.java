@@ -8,4 +8,9 @@ package design_pattern.behavioral_design_pattern.command;
 
 /**
  * android中常见的handler就是command模式，message及内部的looper和handler
+ *
+ 接受者：Handler，执行消息的处理操作。
+ 调用者：Looper，调用消息的的处理方法。
+ 命令角色：Message，消息类。
+
  */

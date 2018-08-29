@@ -6,9 +6,11 @@ package design_pattern.structural_design_pattern.proxy;
 
 /**
  * 三种代理
- *
+ * <p>
  * 静态代理：即为demo中代码所用
- *
+ * <p>
  * 动态代理：静态代理，会造成代理类多。动态代理可以实现aop编程
- *
+ * <p>
+ * ActivityManagerProxy
  */
+
