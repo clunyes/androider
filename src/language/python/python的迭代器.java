@@ -1,4 +1,4 @@
-package language;
+package language.python;
 
 public class python的迭代器 {
     /**
