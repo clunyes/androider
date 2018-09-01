@@ -5,41 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422ff142-4017-46a4-845e-76b86fcb4aa5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/android/orm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/arithmetic/test/TestQuick.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/arithmetic/test/testBubble.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/arithmetic/test/testInsert.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/arithmetic/test/testSelect.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/framework/mvc.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/framework/mvp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/framework/mvvm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/java/synchonize.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/newtech/hotPatch.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/version_control/branch.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/version_control/bugbranch.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/version_control/cooperation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/version_control/git.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/version_control/tag.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/version_control/withdraw.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/kang.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/kang.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/language/encoding.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/language/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/language/python.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/language/python的迭代器.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/bubbleSort.java" afterPath="$PROJECT_DIR$/src/arithmetic/bubbleSort.java" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/package-info.java" afterPath="$PROJECT_DIR$/src/arithmetic/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/quickSort.java" afterPath="$PROJECT_DIR$/src/arithmetic/quickSort.java" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/selectionSort.java" afterPath="$PROJECT_DIR$/src/arithmetic/selectionSort.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/command/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/command/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/iterator/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/iterator/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/observer/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/observer/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/state/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/state/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/strategy/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/strategy/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/templateMethod/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/templateMethod/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/visitor/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/visitor/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/adapter/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/adapter/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/package-info.java" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/newtech/flutter.java" afterPath="$PROJECT_DIR$/src/newtech/flutter.java" />
-      <change beforePath="$PROJECT_DIR$/src/newtech/oauth2.java" afterPath="$PROJECT_DIR$/src/newtech/oauth2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,11 +33,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="git.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="git.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/version_control/git.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="920">
+              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/collection/collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="python.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/language/python.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/language/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="encoding.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/language/encoding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="python的迭代器.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/language/python的迭代器.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -103,6 +133,7 @@
       <find>n</find>
       <find>getProxyInstance</find>
       <find>main</find>
+      <find>volati</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -123,10 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/command/package-info.java" />
-        <option value="$PROJECT_DIR$/src/behavioral_design_pattern/interpreter/package-info.java" />
-        <option value="$PROJECT_DIR$/src/structural_design_pattern/facde/package-info.java" />
-        <option value="$PROJECT_DIR$/src/arithmetic/insertSort.java" />
         <option value="$PROJECT_DIR$/src/structural_design_pattern/composite/package-info.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/composite/package-info.java" />
         <option value="$PROJECT_DIR$/src/java/collection.java" />
@@ -174,6 +201,10 @@
         <option value="$PROJECT_DIR$/src/version_control/tag.java" />
         <option value="$PROJECT_DIR$/src/version_control/withdraw.java" />
         <option value="$PROJECT_DIR$/src/version_control/git.java" />
+        <option value="$PROJECT_DIR$/src/language/encoding.java" />
+        <option value="$PROJECT_DIR$/src/language/python.java" />
+        <option value="$PROJECT_DIR$/src/language/package-info.java" />
+        <option value="$PROJECT_DIR$/src/language/python的迭代器.java" />
       </list>
     </option>
   </component>
@@ -183,7 +214,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1932" />
     <option name="height" value="1056" />
@@ -206,6 +237,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,14 +253,37 @@
               <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structural_design_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structural_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -849,12 +907,15 @@
       <workItem from="1535185009837" duration="340000" />
       <workItem from="1535331097981" duration="9373000" />
       <workItem from="1535416144323" duration="10186000" />
-      <workItem from="1535503265200" duration="597000" />
+      <workItem from="1535503265200" duration="1097000" />
+      <workItem from="1535596947247" duration="3874000" />
+      <workItem from="1535675665022" duration="571000" />
+      <workItem from="1535761834412" duration="3148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365496000" />
+    <option name="totallyTimeSpent" value="373589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,7 +927,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -875,20 +937,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29233226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30138445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39661017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39661017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -899,7 +962,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924226" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1005,41 +1067,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/DecoratorTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/DecoratorOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1295,13 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/collection/collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/version_control/bugbranch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1361,8 +1381,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/version_control/git.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="920">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/collection/collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language/python.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language/encoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language/python的迭代器.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/structural_design_pattern/decorator/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>
