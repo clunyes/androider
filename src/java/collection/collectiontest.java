@@ -1,5 +1,7 @@
 package java.collection;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 public class collectiontest {
     /**
      *  这个类用以说明java集合的知识

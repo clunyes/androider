@@ -7,12 +7,12 @@ def _format_addr(s):
     name, addr = parseaddr(s)
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
-from_addr = input('clunyes@126.com')
-password = input('kisszk1234567')
+from_addr = 'clunyes@126.com'
+password = 'kisszk1234567'
 # 输入收件人地址:
-to_addr = input('kang@wlwbshop.com')
+to_addr = 'kang@wlwbshop.com'
 # 输入SMTP服务器地址:
-smtp_server = input('smtp.126.com')
+smtp_server = 'smtp.126.com'
 
 msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
 msg['From'] = _format_addr('Python爱好者 <%s>' % from_addr)
