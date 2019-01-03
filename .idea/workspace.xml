@@ -270,9 +270,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1933" />
-    <option name="height" value="1057" />
+    <option name="x" value="-10" />
+    <option name="width" value="1934" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -339,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Unknown.boolean584921444">
+  <component name="RunManager" selected="Unknown.boolean1201599537">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />

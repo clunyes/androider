@@ -8,7 +8,9 @@ public class listtest {
      *
      * linkedlist内存占用稍大
      *
+     * Vector同步
      *
+     * stack 栈继承自vector
      *
      */
 }
