@@ -24,5 +24,7 @@ public class threadpooltype {
      *4. newScheduleThreadPool
      *
      * 创建一个定长的线程池，而且支持定时的以及周期性的任务执行，支持定时及周期性任务执行。
+     *
+     * 参考资料：https://www.cnblogs.com/zhujiabin/p/5404771.html
      */
 }

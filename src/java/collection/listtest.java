@@ -6,7 +6,7 @@ public class listtest {
      *
      * arraylist优势是查询，linkedlist优势插入
      *
-     * linkedlist内存占用稍大
+     * (linkedlist内存占用稍大)暂无定论
      *
      * Vector同步
      *

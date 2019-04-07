@@ -25,7 +25,8 @@ public class glideinto {
      * 将这个请求放到RequestManager的请求队列中，同时发起加载请求。
      * 那么，Glide就通过RequestManager、RequestOption、Request，构建了一个请求序列,并通过监听生命周期来动态管理Request的开启、暂停、恢复、销毁等。
      *
-     * 在begin方法中，如果图片显示尺寸有效，会直接调用onSizeReady。否则， 会调用target.getSize，去计算图片尺寸，计算完毕后，同样会回调onSizeReady方法。
+     * 在begin方法中，如果图片显示尺寸有效，会直接调用onSizeReady。否则， 会调用target.getSize，去计算图片尺寸，
+     * 计算完毕后，同样会回调onSizeReady方法。
      * onSizeReady--->engine.load(具体过程已写入engineload文章中)
      *
      *

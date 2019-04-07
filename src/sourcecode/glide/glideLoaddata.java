@@ -6,7 +6,8 @@ public class glideLoaddata {
      *
      *
      *
-     * MultiModelLoader会遍历保存的ModelLoader列表，逐个构建LoadData，并将各个LoadData中的DataFetcher取出，存放在MultiFetcher中，从而MultiFetcher又成为一个协调器。
+     * MultiModelLoader会遍历保存的ModelLoader列表，逐个构建LoadData，并将各个LoadData中的DataFetcher取出，
+     * 存放在MultiFetcher中，从而MultiFetcher又成为一个协调器。
      *
      * 其实最后构建的就是实际干活的对象：HttpGlideUrlLoader
      *
