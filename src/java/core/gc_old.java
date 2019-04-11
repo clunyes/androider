@@ -1,8 +1,8 @@
 package java.core;
 
-public class gc {
+public class gc_old {
     /**
-     *gc 需要解决的问题
+     *gc_old 需要解决的问题
      * 1. 哪些对象可以被回收
      * 2. 何时回收这些对象
      * 3. 用什么方式回收

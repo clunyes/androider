@@ -2,7 +2,7 @@ package newtech;
 
 public class oauth2 {
     /**
-     * +--------+                               +---------------+
+     +--------+                               +---------------+
      |        |--(A)- Authorization Request ->|   Resource    |
      |        |                               |     Owner     |
      |        |<-(B)-- Authorization Grant ---|               |
