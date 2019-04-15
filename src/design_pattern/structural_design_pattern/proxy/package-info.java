@@ -13,4 +13,12 @@ package design_pattern.structural_design_pattern.proxy;
  * <p>
  * ActivityManagerProxy
  */
-
+/**
+ *
+ * 代理模式（Proxy 模式）可理解为：我想做，但不能做，我需要有一个能干的人来帮我做。
+ *
+ * 装饰器模式（Decorator 模式）可理解为：我想做，但不能做，我需要有各类特长的人来帮我做，但我有时只需要一个人，有时又需要很多人。
+ *
+ * 它们的区别就是，Proxy 模式需要的是一个能人，而 Decorator 模式需要的是一个团队。
+ *
+ */

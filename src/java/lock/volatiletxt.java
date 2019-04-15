@@ -1,4 +1,4 @@
-package java;
+package java.lock;
 
 public class volatiletxt {
     /**
