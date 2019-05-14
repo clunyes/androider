@@ -30,7 +30,8 @@ public class okhttpintercept {
 
      　　 2）两者负责的区域不同，从最上方图中可以看出，应用拦截器作用于okhttpCore到Application之间，网络拦截器作用于 network和okhttpCore之间
 
-     　　 3）在某种特殊情况下（比如：访问了一个url，结果这个url发生了重定向），网络拦截器有可能被执行多次，但是 不论任何情况，application只会被执行一次。（这个，证明起来十分简单，只需要将上面代码中30行的addInterceptor改成addNetworkInterceptor，运行起来再观察日志打印，就会发现，内容被打印了两次，我就不再试了，有兴趣的可自己运行代码）
+     　　 3）在某种特殊情况下（比如：访问了一个url，结果这个url发生了重定向），网络拦截器有可能被执行多次，但是 不论任何情况，application只会被执行一次。
+     （这个，证明起来十分简单，只需要将上面代码中30行的addInterceptor改成addNetworkInterceptor，运行起来再观察日志打印，就会发现，内容被打印了两次，我就不再试了，有兴趣的可自己运行代码）
      *
      * 源码实现的Interceptor
      * RetryAndFollowUpInterceptor：负责失败自动重连和必要的重定向。
