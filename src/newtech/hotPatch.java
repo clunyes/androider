@@ -2,7 +2,7 @@ package newtech;
 
 public class hotPatch {
     /**
-     *classLoader：
+     * classLoader：
      * 1.PathClassLoader:加载系统类和应用类
      * 2.DexClassLoader:加载jar、apk、dex文件
      *

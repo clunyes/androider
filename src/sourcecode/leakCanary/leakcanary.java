@@ -1,4 +1,4 @@
-package sourcecode.leakCanary;
+package sourcecode.LeakCanary;
 
 public class leakcanary {
     /**
@@ -6,7 +6,8 @@ public class leakcanary {
      * LeakCanary 是怎么实现的？
      *
      *
-     * LeakCanary通过ApplicationContext统一注册监听的方式，来监察所有的Activity生命周期，并在Activity的onDestroy时，执行RefWatcher的watch方法，该方法的作用就是检测本页面内是否存在内存泄漏问题。
+     * LeakCanary通过ApplicationContext统一注册监听的方式(registerActivityLifecycleCallbacks)，来监察所有的Activity生命周期，
+     * 并在Activity的onDestroy时，执行RefWatcher的watch方法，该方法的作用就是检测本页面内是否存在内存泄漏问题。
      *
      *
      * 以上是检测的核心代码实现，从源码可以看出，检测的流程：
@@ -31,4 +32,5 @@ public class leakcanary {
      * 根据GCRoot开始按树形结构依次建议当前引用的轨迹信息。
      *
      */
+
 }
