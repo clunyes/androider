@@ -1,4 +1,4 @@
-package java.core;
+package java.jvm;
 
 public class jvm {
     /**
