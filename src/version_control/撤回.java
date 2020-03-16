@@ -1,6 +1,6 @@
 package version_control;
 
-public class withdraw {
+public class 撤回 {
     /**
      * 撤回
      *

@@ -25,10 +25,10 @@ public class eventdispatch {
      *
      * 2.ViewGroup和View组成了一个树状结构，根节点为Activity内部包含的一个ViwGroup。
      *
-     * 3.触摸事件由Action_Down、Action_Move、Aciton_UP组成，其中一次完整的触摸事件中，Down和Up都只有一个，Move有若干个，可以为0个。
+     * 3.触摸事件由Action_Down、Action_Move、Action_UP组成，其中一次完整的触摸事件中，Down和Up都只有一个，Move有若干个，可以为0个。
      *
-     * 4.当Acitivty接收到Touch事件时，将遍历子View进行Down事件的分发。ViewGroup的遍历可以看成是递归的。
-     * 分发的目的是为了找到真正要处理本次完整触摸事件的View，这个View会在onTouchuEvent结果返回true。
+     * 4.当Activity接收到Touch事件时，将遍历子View进行Down事件的分发。ViewGroup的遍历可以看成是递归的。
+     * 分发的目的是为了找到真正要处理本次完整触摸事件的View，这个View会在onTouchEvent结果返回true。
      *
      * 5.当某个子View返回true时，会中止Down事件的分发，同时在ViewGroup中记录该子View。
      * 接下去的Move和Up事件将由该子View直接进行处理。由于子View是保存在ViewGroup中的，
@@ -38,7 +38,7 @@ public class eventdispatch {
      *
      * 6.当ViewGroup中所有子View都不捕获Down事件时，将触发ViewGroup自身的onTouch事件。
      *      * 触发的方式是调用super.dispatchTouchEvent函数，即父类View的dispatchTouchEvent方法。
-     *      * 在所有子View都不处理的情况下，触发Acitivity的onTouchEvent方法。
+     *      * 在所有子View都不处理的情况下，触发Activity的onTouchEvent方法。
      *
      * 7.onInterceptTouchEvent有两个作用：1.拦截Down事件的分发。2.中止Up和Move事件向目标View传递，使得目标View所在的ViewGroup捕获Up和Move事件。
      */

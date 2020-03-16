@@ -2,6 +2,7 @@ package android;
 
 public class updateui {
     /**
-     * 子线程也能更新ui，checkThread方法检车当前thread和mThread，SurfaceView 就可以
+     * 子线程也能更新ui，checkThread方法还未检测出来时可以（在activity的oncreate）
+     * SurfaceView 可以在子线程中刷新ui
      */
 }
