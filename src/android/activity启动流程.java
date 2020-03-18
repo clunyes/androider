@@ -38,9 +38,20 @@ public class activity启动流程 {
      * 6、上述步骤完成后AMS执行一系列启动Activity B的操作，并通过Binder通信（ApplicationThread及其接口定义语言）进行跨进程调用，将Activity B启动起来；
      */
 
+    /**
+     * 面试术语
+     *
+     * Activity的启动过程，我们可以从Context的startActivity说起，其实现是ContextImpl的startActivity，
+     * 然后内部会通过Instrumentation来尝试启动Activity，这是一个跨进程过程，它会调用ams的startActivity方法，
+     * 当ams校验完activity的合法性后，会通过ApplicationThread回调到我们的进程，这也是一次跨进程过程，
+     * 而applicationThread就是一个binder，回调逻辑是在binder线程池中完成的，所以需要通过Handler H将其切换到ui线程，
+     * 第一个消息是LAUNCH_ACTIVITY，它对应handleLaunchActivity，在这个方法里完成了Activity的创建和启动，
+     * 接着，在activity的onResume中，activity的内容将开始渲染到window上，然后开始绘制直到我们看见。——任玉刚大佬
+     */
+
     //https://blog.csdn.net/u010648159/article/details/81103092
 
     /**
-     * stub binder
+     * stub android.binder.binder
      */
 }

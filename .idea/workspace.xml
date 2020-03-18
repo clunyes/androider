@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/review.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/activity启动流程.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/lazyhero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="[feature]3.16">
+      <change afterPath="$PROJECT_DIR$/src/android/binder/binder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/binder/binder_relationship.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/binder/binder架构.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/binder/serializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/binder/内存映射.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/android/AppLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/AppLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/activityLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/activity启动流程.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/activity启动流程.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/android版本适配.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/android版本适配.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/android/eventdispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/eventdispatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/updateui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/updateui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/mvc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designframework/mvc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/mvp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designframework/mvp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/mvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designframework/mvvm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/version_control/withdraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/version_control/撤回.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +34,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/binder/server" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/android" />
+      <recent name="$PROJECT_DIR$/src/android/binder/server" />
+      <recent name="$PROJECT_DIR$/src/android/binder/client" />
+      <recent name="$PROJECT_DIR$/src/android/binder/aidl" />
+      <recent name="$PROJECT_DIR$/src/android/binder/src" />
+      <recent name="$PROJECT_DIR$/src/android/binder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,6 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1584340730931</updated>
     </task>
+    <task id="LOCAL-00001" summary="[feature]3.16">
+      <created>1584342523118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584342523119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,10 +84,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[feature]3.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feature]3.16" />
   </component>
 </project>

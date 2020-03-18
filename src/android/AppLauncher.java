@@ -20,4 +20,12 @@ public class AppLauncher {
      *     绘制(Draw)
      *
      */
+
+    /**
+     *
+     * 暂时参考文章
+     * https://www.jianshu.com/p/4a8f44b6eecb
+     *
+     * https://blog.csdn.net/pgg_cold/article/details/79491791
+     */
 }

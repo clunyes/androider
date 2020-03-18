@@ -29,4 +29,10 @@ public class android版本适配 {
      * 但还是建议都使用https进行传输
      *
      */
+    /**
+     * android 10.0适配
+     * Android Q(10)中的媒体资源读写
+     * EditText默认不获取焦点，不自动弹出键盘
+     * Android Q开始，公有目录File API都失效，不能直接通过new File(path).exists();判断公有目录文件是否存在
+     */
 }
