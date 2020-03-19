@@ -1,4 +1,4 @@
-package android;
+package android.window;
 
 public class activityWindowView {
     /**

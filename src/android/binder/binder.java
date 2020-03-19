@@ -63,4 +63,11 @@ public class binder {
      *
      *
      */
+    /**
+     * 怎么实际使用aidl实现进程间通信
+     *
+     * https://www.cnblogs.com/tangZH/p/10775848.html
+     *
+     * 如果客户端和服务端在同一个进程下，那么asInterface()将返回Stub对象本身，否则返回Stub.Proxy对象。
+     */
 }
