@@ -1,23 +1,27 @@
 package design_pattern.structural_design_pattern.proxy.dynamic;
 
-import design_pattern.structural_design_pattern.proxy.base.ICoder;
-import design_pattern.structural_design_pattern.proxy.base.JavaCoder;
-import design_pattern.structural_design_pattern.proxy.staticProxy.ProductManager;
+import design_pattern.structural_design_pattern.proxy.base.Girl;
+import design_pattern.structural_design_pattern.proxy.base.Persuit;
+import design_pattern.structural_design_pattern.proxy.base.SendGift;
+
+import java.lang.reflect.Proxy;
 
 public class Client {
 
     public static void main(String[] args) {
-        // 目标对象
-        ICoder target = new JavaCoder();
-        ((JavaCoder)target).setName("阿鹤");
-        System.out.println(target.getClass());
+        Girl girl = new Girl("芳芳");
+        TimingInvocationHandler timingInvocationHandler
+                = new TimingInvocationHandler(new Persuit(girl));
 
-        ICoder pm = new ProductManager(target);
-        pm.implDemand("豪哥搞的产品");
-// 给目标对象，创建代理对象
-        ICoder proxy = (ICoder) new ProxyFactory(target).getProxyInstance();
-        // class $Proxy0   内存中动态生成的代理对象
-        System.out.println(proxy.getClass());
-        proxy.implDemand("动态代理了");
+        SendGift sendGift = (SendGift) Proxy.newProxyInstance(SendGift.class.getClassLoader(), new Class[]{SendGift.class},
+                timingInvocationHandler);
+
+
+        // call method of proxy instance
+
+        sendGift.sendCake();
+
+        sendGift.sendFlower();
+        sendGift.goShopping();
     }
 }

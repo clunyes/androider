@@ -6,3 +6,17 @@ package design_pattern.behavioral_design_pattern.mediator;
 /**
  * 中介者，相当于电脑中的主板，所有cpu显卡内存都往主板上集成
  */
+/**
+ * Android中的锁屏功能就用到了中介者模式，KeyguardService（锁屏服务）通过KeyguardViewMediator（锁屏中介者）
+ * 来协调各种Manager的状态以达到锁屏的功能。这里KeyguardService和各种Manager等等都充当了同事的角色。
+ *
+ *         private AlarmManager mAlarmManager;
+ *         private AudioManager mAudioManager;
+ *         private StatusBarManager mStatusBarManager;
+ *         private PowerManager mPM;
+ *         private IWindowManager mWM;
+ *         private TrustManager mTrustManager;
+ *         private SearchManager mSearchManager;
+ *         private PowerManager.WakeLock mShowKeyguardWakeLock;
+ *         private StatusBarKeyguardViewManager mStatusBarKeyguardViewManager;
+ */
