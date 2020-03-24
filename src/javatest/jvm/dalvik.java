@@ -2,10 +2,14 @@ package javatest.jvm;
 
 public class dalvik {
     /**
+     * Dalvik VM是Android平台的虚拟机，不是jvm（dalvik寄存器架构而不是JVM中常见的栈架构）。（hotspot是jvm）
+     *
+     * jvm运行字节码，dalvik运行dex
      *
      * 参考：http://www.androidmst.com/1101.html
      *
-     * ART模式英文全称为：Android runtime，谷歌Android 4.4系统新增的一种应用运行模式，与传统的Dalvik模式不同，ART模式可以实现更为流畅的安卓系统体验，
+     * ART模式英文全称为：Android runtime，谷歌Android 4.4系统新增的一种应用运行模式，与传统的Dalvik模式不同，
+     * ART模式可以实现更为流畅的安卓系统体验，
      * 对于大家来说，只要明白ART模式可让系统体验更加流畅，不过只有在安卓4.4以上系统中采用此功能。
      *
      *

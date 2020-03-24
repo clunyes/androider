@@ -1,6 +1,6 @@
 package javatest.jvm.垃圾回收;
 
-public class newoldGeneration {
+public class conclude {
     /**
      * 新生代:Minor GC是发生在新生代中的垃圾收集，采用的复制算法
      *

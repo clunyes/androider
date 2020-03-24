@@ -2,60 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/principle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/base/Persuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/base/SendGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/dynamic/TimingInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/staticProxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designframework/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/generic/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/dalvik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/内存结构/heap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/内存结构/java堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/内存结构/jvm内存结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/内存结构/共享内存区.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc判定.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/conclude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc收集器.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc方法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc触发.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/内存申请过程.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/分代.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/lock/java并发.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/lock/并发并行.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/lock/死锁.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/kotlin/kt经验togetu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/orm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/orm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/ChainOfResponsibility/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/ChainOfResponsibility/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/mediator/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/mediator/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/observer/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/observer/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/templateMethod/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/behavioral_design_pattern/templateMethod/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/creational_design_pattern/singleton/lazy/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/creational_design_pattern/singleton/lazy/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/creational_design_pattern/singleton/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/creational_design_pattern/singleton/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/adapter/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/adapter/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/bridge/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/bridge/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facade/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/facade/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/base/ICoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/base/Girl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/base/JavaCoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/dynamic/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/dynamic/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/dynamic/ProxyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/staticProxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/staticProxy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/structural_design_pattern/proxy/staticProxy/ProductManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/annotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/collection/ConcurrentHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/ConcurrentHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/collection/collectiontest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/collectiontest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/collection/hashmaptest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/hashmaptest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/collection/listtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/listtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/generic/generic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/different_gc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/different_gc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/gc_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/hotspot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/hotspot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/javaobjectcreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/javaobjectcreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/jvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/jvm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/jvmMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/内存结构/jvmMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/memoryleak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/newoldGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/newoldGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/jvm/reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/reference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/lock/javalocktype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/lock/javalocktype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/lock/lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/lock/lock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/lock/synchonize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/lock/synchonize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/lock/volatiletxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/lock/volatiletxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/thread/threadpooltest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/thread/threadpooltest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/thread/threadpooltype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/thread/threadpooltype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/dalvik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/dalvik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/hotspot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/hotspot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/jvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/jvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc_old.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/newoldGeneration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/lock/lock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/lock/synchonize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/lock/synchonize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/thread/threadpooltype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/thread/threadpooltype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/kotlin/innerIt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/kotlin/ktlazy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/kotlin/letwithrunapply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/kotlin/objectkt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/kotlin/when.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/emailtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/emailtest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,16 +53,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/javatest/jvm/垃圾回收" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/javatest/lock" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/javatest/lock" />
       <recent name="$PROJECT_DIR$/src/javatest/jvm/垃圾回收" />
       <recent name="$PROJECT_DIR$/src/javatest/jvm/内存结构" />
       <recent name="$PROJECT_DIR$/src/android/applaunch" />
       <recent name="$PROJECT_DIR$/src/android/binder/server" />
-      <recent name="$PROJECT_DIR$/src/android/binder/client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -212,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584604713047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[3.23]jvm 1">
+      <created>1584967303069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584967303069</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +212,7 @@
     <MESSAGE value="[feature]3.16" />
     <MESSAGE value="[feature]3.18,binder原理" />
     <MESSAGE value="[3.19]app启动，activity启动补全" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3.19]app启动，activity启动补全" />
+    <MESSAGE value="[3.23]jvm 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3.23]jvm 1" />
   </component>
 </project>
