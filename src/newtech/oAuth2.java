@@ -1,6 +1,6 @@
 package newtech;
 
-public class oauth2 {
+public class oAuth2 {
     /**
      +--------+                               +---------------+
      |        |--(A)- Authorization Request ->|   Resource    |

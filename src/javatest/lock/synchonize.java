@@ -2,7 +2,7 @@ package javatest.lock;
 
 public class synchonize {
     /**
-     * 在 Java 早期版本中，synchronized属于重量级锁，效率低下
+     * 在 Java 早期版本中，synchronized属于重量级锁，效率低下(ReentrantLock)
      * JDK 1.6 对synchronized同步锁做了的优化,目前比lock效率不差
      *
      * 锁的状态总共有四种，无锁状态、偏向锁、轻量级锁和重量级锁。随着锁的竞争，锁可以从偏向锁升级到轻量级锁，再升级的重量级锁，但是锁的升级是单向的，

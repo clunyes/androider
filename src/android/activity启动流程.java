@@ -34,7 +34,8 @@ public class activity启动流程 {
      * 3、AMS会将要启动的Activity B的组件信息保存下来，ActivityManagerService接收到启动请求后会进行必要的初始化以及状态的刷新，然后解析Activity的启动模式，为启动Activity做一系列的准备工作。
      *
      * 4、然后判断栈顶是否为空，如果不为空即当前有Activity A显示在前台，则会先进行栈顶Activity的onPause流程，此过程是通过Binder通信（ApplicationThread及其接口定义语言）完成
-     * 5、Activity A完成pause操作后，通过Binder通信（ActivityManagerService及其接口定义语言）通知AMS，可以执行启动Activity B的操作了（要启动的activity信息保存在了栈顶）（此处需要注意的是如果Activity被启动过则直接执行onRestart->onStart->onResume过程直接启动Activity（热启动过程）。否则执行Activity所在应用的冷启动过程。冷启动的过程是通过Zygote进程fork出一个新的进程然后执行ActivityThread的main方法启动新进程）
+     * 5、Activity A完成pause操作后，通过Binder通信（ActivityManagerService及其接口定义语言）通知AMS，可以执行启动Activity B的操作了（要启动的activity信息保存在了栈顶）
+     * （此处需要注意的是如果Activity被启动过则直接执行onRestart->onStart->onResume过程直接启动Activity（热启动过程）。否则执行Activity所在应用的冷启动过程。冷启动的过程是通过Zygote进程fork出一个新的进程然后执行ActivityThread的main方法启动新进程）
      * 6、上述步骤完成后AMS执行一系列启动Activity B的操作，并通过Binder通信（ApplicationThread及其接口定义语言）进行跨进程调用，将Activity B启动起来；
      */
 

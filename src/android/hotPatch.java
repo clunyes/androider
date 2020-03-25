@@ -1,4 +1,4 @@
-package newtech;
+package android;
 
 public class hotPatch {
     /**

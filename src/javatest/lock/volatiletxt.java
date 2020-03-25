@@ -9,5 +9,7 @@ public class volatiletxt {
      * 3. 有序性:即程序执行的顺序按照代码的先后顺序执行。
      *
      * 简单总结下，volatile是一种轻量级的同步机制，它主要有两个特性：一是保证共享变量对所有线程的可见性；二是禁止指令重排序优化。
+     *
+     * 不要将volatile用在getAndOperate场合（这种场合不原子，需要再加锁），仅仅set或者get的场景是适合volatile的。
      */
 }

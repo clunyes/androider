@@ -2,33 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javatest/error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/conclude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc收集器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc触发.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/内存申请过程.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/分代.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/lock/java并发.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/lock/并发并行.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/lock/死锁.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/language/kotlin/kt经验togetu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/anim/anim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/推送/push.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/自定义view/draw/draw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/自定义view/layout/layout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/自定义view/measure/decorview_measure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/自定义view/measure/measure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/自定义view/measure/spec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/自定义view/viewdraw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/自定义view/前言.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/collection/collection.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/collection/hashmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/collection/著名的cas算法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/socket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/三次握手.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/四次分手.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/dalvik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/dalvik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/hotspot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/hotspot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/jvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/jvm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/gc_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/垃圾回收/newoldGeneration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/lock/lock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/activity启动流程.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/activity启动流程.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/appoptimize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/优化/appoptimize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/updateui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/主线程ui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/collection/collectiontest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/collectiontest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/collection/hashmaptest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/hashmaptest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/collection/listtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/listtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/lock/javalocktype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/lock/javalocktype.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javatest/lock/synchonize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/lock/synchonize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/thread/threadpooltype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/thread/threadpooltype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/kotlin/innerIt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/kotlin/ktlazy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/kotlin/letwithrunapply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/kotlin/objectkt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/kotlin/when.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/emailtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/emailtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/lock/volatiletxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/lock/volatiletxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/https.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/https.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/ipLearn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/router.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/securitytest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/sockettest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/sockettest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/tcpudp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/tcpudp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newtech/oauth2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newtech/oAuth2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,16 +58,19 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/javatest/lock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/自定义view/draw" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/android/自定义view/measure" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/javatest/lock" />
-      <recent name="$PROJECT_DIR$/src/javatest/jvm/垃圾回收" />
-      <recent name="$PROJECT_DIR$/src/javatest/jvm/内存结构" />
-      <recent name="$PROJECT_DIR$/src/android/applaunch" />
-      <recent name="$PROJECT_DIR$/src/android/binder/server" />
+      <recent name="$PROJECT_DIR$/src/android/自定义view/draw" />
+      <recent name="$PROJECT_DIR$/src/android/自定义view/layout" />
+      <recent name="$PROJECT_DIR$/src/android/自定义view/measure" />
+      <recent name="$PROJECT_DIR$/src/android/自定义view" />
+      <recent name="$PROJECT_DIR$/src/javatest/collection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584967303069</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[3.24]java锁">
+      <created>1585020999116</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585020999116</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +228,7 @@
     <MESSAGE value="[feature]3.18,binder原理" />
     <MESSAGE value="[3.19]app启动，activity启动补全" />
     <MESSAGE value="[3.23]jvm 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3.23]jvm 1" />
+    <MESSAGE value="[3.24]java锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3.24]java锁" />
   </component>
 </project>

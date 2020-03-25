@@ -1,4 +1,4 @@
-package android;
+package android.优化;
 
 public class appoptimize {
     /**

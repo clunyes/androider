@@ -1,6 +1,6 @@
 package android;
 
-public class updateui {
+public class 主线程ui {
     /**
      * 主线程（ui线程刷新）的保证就是checkThread。
      * 子线程也能更新ui，checkThread方法还未检测出来时可以（在activity的oncreate）
