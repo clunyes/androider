@@ -28,8 +28,6 @@ public class leakcanary {
      * analyze: 执行分析
      *
      *
-     * 这个版本的LeakCanary采用了MAT对内存信息进行分析，并生成结果。其中在分析时，分为findLeakingReference与findLeakTrace来查找泄漏的引用与轨迹，
-     * 根据GCRoot开始按树形结构依次建议当前引用的轨迹信息。
      *
      */
 

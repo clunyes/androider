@@ -14,4 +14,11 @@ public class memoryleak {
      * mat
      * leakcanary 都可以检测解决该类问题
      */
+
+    /**
+     * 几乎所有的 OOM 错误都是因为宿主应用出了问题，而不是 Glide 本身。 应用里两种常见的 OOM 错误分别是：
+     *
+     * 过大的内存分配 (Excessively large allocations)
+     * 内存泄露(Memory leaks, 被分配的内存没有被释放)
+     */
 }

@@ -1,4 +1,4 @@
-package sourcecode.okhttp;
+package sourcecode.okhttp.interceptor;
 
 public class okhttpintercept {
     /**
@@ -20,7 +20,7 @@ public class okhttpintercept {
 
      　　1）都能对server返回的response进行拦截（好像是废话···）
 
-     2）这两种拦截器本质上都是基于Interceptor接口，由开发者实现这个接口，然后将自定义的Interceptor类的对象设置到okhttpClient对象中（参见上面的Main2Activity代码）。所以，他们的对象，本质上没什么不同，都是Interceptor的实现类的对象。
+        2）这两种拦截器本质上都是基于Interceptor接口，由开发者实现这个接口，然后将自定义的Interceptor类的对象设置到okhttpClient对象中。所以，他们的对象，本质上没什么不同，都是Interceptor的实现类的对象。
 
      　　3）两者都会被add到OkHttpClient内的一个ArrayList中。当请求执行的时候，多个拦截器会依次执行（list本身就是有序的）。
 
@@ -31,7 +31,6 @@ public class okhttpintercept {
      　　 2）两者负责的区域不同，从最上方图中可以看出，应用拦截器作用于okhttpCore到Application之间，网络拦截器作用于 network和okhttpCore之间
 
      　　 3）在某种特殊情况下（比如：访问了一个url，结果这个url发生了重定向），网络拦截器有可能被执行多次，但是 不论任何情况，application只会被执行一次。
-     （这个，证明起来十分简单，只需要将上面代码中30行的addInterceptor改成addNetworkInterceptor，运行起来再观察日志打印，就会发现，内容被打印了两次，我就不再试了，有兴趣的可自己运行代码）
      *
      * 源码实现的Interceptor
      * RetryAndFollowUpInterceptor：负责失败自动重连和必要的重定向。
@@ -39,7 +38,7 @@ public class okhttpintercept {
      * CacheInterceptor：负责控制缓存，缓存的逻辑就在这里面。
      * ConnectInterceptor：负责进行连接主机，在这里会完成socket连接，并将连接返回。
      * CallServerInterceptor：和服务器通信，完成Http请求。
-     * 还有loggingInterceptor
+     * 这些都是okhttp库内部定义的拦截器，不做修改
      *
      */
 

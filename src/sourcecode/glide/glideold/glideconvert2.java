@@ -1,4 +1,4 @@
-package sourcecode.glide;
+package sourcecode.glide.glideold;
 
 public class glideconvert2 {
     /**
