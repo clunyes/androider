@@ -1,4 +1,4 @@
-package android;
+package android.activity;
 
 public class activity启动流程 {
     /**

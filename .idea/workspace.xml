@@ -2,34 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/glide/api/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/glide/api/TransitionOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/glide/api/requsetOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/glide/api/替换httpUrlConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/leakCanary/leakcanary检测流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/leakCanary/notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/okhttp/interceptor/各种拦截器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/okhttp/interceptor/拦截器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/okhttp/interceptor/拦截器责任链.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/okhttp/okhttp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/okhttp/okhttpclient配置.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/retrofit/retrofit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/retrofit/retrofit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/activity/activity启动模式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/插件化/插件化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/hotPatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/robust.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/sophix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/tinker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/组件化/组件化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/组件化/组件化.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/reference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/dataconvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glideold/dataconvert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/engineload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glideold/engineload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/fetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glideold/fetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/glideLoaddata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glideold/glideLoaddata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/glidecache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glidecache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/glideconvert2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glideold/glideconvert2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/glideinto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glideold/glideinto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/glideload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glideold/glideload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/glidewith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/glideold/glidewith.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/glide/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/glide/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/leakCanary/leakcanary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/leakCanary/leakcanary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/okhttp/okhttpintercept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/okhttp/interceptor/okhttpintercept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/activity启动流程.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/activity/activity启动流程.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/hotPatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/优化/appoptimize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/优化/appoptimize.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,16 +39,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sourcecode/retrofit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/组件化" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/android/组件化" />
       <recent name="$PROJECT_DIR$/src/sourcecode/retrofit" />
       <recent name="$PROJECT_DIR$/src/sourcecode/okhttp/interceptor" />
       <recent name="$PROJECT_DIR$/src/sourcecode/okhttp" />
       <recent name="$PROJECT_DIR$/src/sourcecode/leakCanary" />
-      <recent name="$PROJECT_DIR$/src/android/自定义view/draw" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/android/自定义view/measure" />
@@ -210,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585108367140</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[3.26]sourcecode部分">
+      <created>1585194811738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585194811738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +225,7 @@
     <MESSAGE value="[3.23]jvm 1" />
     <MESSAGE value="[3.24]java锁" />
     <MESSAGE value="[3.25]自定义view相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3.25]自定义view相关" />
+    <MESSAGE value="[3.26]sourcecode部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3.26]sourcecode部分" />
   </component>
 </project>
