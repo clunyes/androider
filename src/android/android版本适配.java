@@ -19,6 +19,7 @@ public class android版本适配 {
     /**
      * Android 8.0 适配
      * notification 在Android 8.0中所有的通知都需要提供通知渠道，否则，所有通知在8.0系统上都不能正常显示。
+     * 取消大部分静态注册广播
      * Android 8.0去除了“允许未知来源”选项。<uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>第三方安装应用
      */
     /**

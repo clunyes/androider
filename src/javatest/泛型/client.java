@@ -1,4 +1,4 @@
-package javatest.generic;
+package javatest.泛型;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

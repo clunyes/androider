@@ -24,6 +24,17 @@ public class hashmaptest {
 //    int hash = hash(key.hashCode());//对key的hashcode进一步计算，确保散列均匀
 //    int i = indexFor(hash, table.length);//获取在table中的实际位置
 
+    /**
+     * public V put(K key, V value) {
+     *         return putVal(hash(key), key, value, false, true); // put 入口 ，当key为null是，当调用hash（） //以下给出hash（）函数 ，可以看到当为null时，赋值为0.
+     *     }
+     *
+     *  static final int hash(Object key) {
+     *         int h;
+     *         return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+     *     }
+     */
+
     //先用hashcode来找到数组中的位置。在链表中，仍需遍历链表，然后通过key对象的equals方法逐一比对查找
     /**
      * 线程安全的集合

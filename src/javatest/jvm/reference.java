@@ -1,6 +1,8 @@
 package javatest.jvm;
 
-public class reference {
+import java.io.Serializable;
+
+public class reference  {
 /**
  * 强引用
  *垃圾回收器绝不会回收它。当内存空 间不足，Java虚拟机宁愿抛出OutOfMemoryError错误，使程序异常终止，

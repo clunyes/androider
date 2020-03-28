@@ -1,4 +1,4 @@
-package javatest.generic;
+package javatest.泛型;
 
 public class generic {
     /**

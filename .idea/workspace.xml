@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/android/activity/activity启动模式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/插件化/插件化.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/hook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/hotPatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/robust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/sophix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/tinker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/组件化/组件化.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/组件化/组件化.png" afterDir="false" />
+    <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="[3.27]热修复部分">
+      <change afterPath="$PROJECT_DIR$/src/android/service/IntentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/service/service启动方式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/service/前台服务.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/广播/broadcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/生命周期/activity_life.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/生命周期/activity生命周期.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/生命周期/fragment生命周期.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/生命周期/异常生命周期.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/自定义view/relativelayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/collection/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/collection/hashmap插入数据.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/collection/hashset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/jvm/java对象创建.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/thread/线程池.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/thread/线程池原理.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/Websocket协议.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/数据库优化.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/activity启动流程.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/activity/activity启动流程.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/hotPatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/优化/appoptimize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/优化/appoptimize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/android版本适配.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/android版本适配.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/collection/hashmaptest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/hashmaptest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/generic/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/泛型/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/generic/generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/泛型/generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/javaobjectcreate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/reference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/thread/threadpooltype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/thread/threadpooltype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/tcpudp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/tcpudp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +54,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/组件化" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/javatest/collection" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/javatest/collection" />
+      <recent name="$PROJECT_DIR$/src/javatest/thread" />
+      <recent name="$PROJECT_DIR$/src/android/生命周期" />
       <recent name="$PROJECT_DIR$/src/android/组件化" />
       <recent name="$PROJECT_DIR$/src/sourcecode/retrofit" />
-      <recent name="$PROJECT_DIR$/src/sourcecode/okhttp/interceptor" />
-      <recent name="$PROJECT_DIR$/src/sourcecode/okhttp" />
-      <recent name="$PROJECT_DIR$/src/sourcecode/leakCanary" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/android/自定义view/measure" />
@@ -66,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.client (1)">
+  <component name="RunManager" selected="Application.client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design_pattern.structural_design_pattern.proxy.dynamic.Client" />
       <module name="review" />
@@ -106,19 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javatest.generic.client" />
-      <module name="review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javatest.generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java.generic.client" />
       <module name="review" />
@@ -132,9 +134,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javatest.泛型.client" />
+      <module name="review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javatest.泛型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.client (1)" />
         <item itemvalue="Application.client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
@@ -202,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585194811738</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[3.27]热修复部分">
+      <created>1585288819589</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585288819589</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +247,7 @@
     <MESSAGE value="[3.24]java锁" />
     <MESSAGE value="[3.25]自定义view相关" />
     <MESSAGE value="[3.26]sourcecode部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3.26]sourcecode部分" />
+    <MESSAGE value="[3.27]热修复部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3.27]热修复部分" />
   </component>
 </project>

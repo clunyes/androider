@@ -24,9 +24,12 @@ public class threadpooltype {
      * 创建一个单线程化的Executor，即只创建唯一的工作者线程来执行任务，它只会用唯一的工作线程来执行任务，保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行。
      * 如果这个线程异常结束，会有另一个取代它，保证顺序执行。单工作线程最大的特点是可保证顺序地执行各个任务，并且在任意给定的时间不会有多个线程是活动的。
      *
-     *4. newScheduleThreadPool
+     * 4. newScheduleThreadPool
      *
      * 创建一个定长的线程池，而且支持定时的以及周期性的任务执行，支持定时及周期性任务执行。
+     *
+     * 5. newWorkStealingPool（核心思想是:自己的活干完了去看看别人有没有没干完的活，如果有就拿过来帮他干。）
+     * 这个是 JDK1.8 版本加入的一种线程池，它实现的一个线程池和上面4种都不一样，用的是 ForkJoinPool 类
      *
      * 参考资料：https://www.cnblogs.com/zhujiabin/p/5404771.html
      */
