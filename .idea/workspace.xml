@@ -1,43 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="[3.28]面试不足部分">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/删除.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/删除p.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/删除情景.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景1/删除情景1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2/211.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2/2121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2/2122.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2/2123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2/删除情景2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2/删除情景211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2/删除情景212.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/参考资料.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/右旋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/左旋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情形.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情景41/4.1.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情景41/4.1.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情景41/插入情景41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情景42/421.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情景42/422.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情景42/插入情景42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/查找/红黑树查找.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/简单的红黑树.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/红黑树操作.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/红黑树/红黑树概念.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/thread/拒绝策略.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/异常/区别.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/异常/异常.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/异常/运行时异常.java" afterDir="false" />
+    <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/android/apk/apk安装大致流程.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/生命周期/android横竖屏生命周期.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/路由/路由方案Arouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/thread/协程.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/变量/String的各个.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/变量/equal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/变量/equal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/变量/java基本数据类型.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/生命周期/fragment生命周期.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/生命周期/fragment生命周期.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/红黑树.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/error.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/tcpudp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/tcpudp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/优化/appoptimize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/优化/appoptimize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/生命周期/activity生命周期.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/生命周期/activity生命周期.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourcecode/retrofit/retrofit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/retrofit/retrofit.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +40,21 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/javatest" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/javatest/equal" />
+      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/查找" />
+      <recent name="$PROJECT_DIR$/src/android/自定义view/measure" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/javatest" />
       <recent name="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2" />
       <recent name="$PROJECT_DIR$/src/datastructure/红黑树/删除" />
       <recent name="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情景42" />
       <recent name="$PROJECT_DIR$/src/datastructure/红黑树/插入/41" />
-      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/插入" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/查找" />
-      <recent name="$PROJECT_DIR$/src/android/自定义view/measure" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585386223116</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[3.29]红黑树">
+      <created>1585497024448</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585497024448</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +251,7 @@
     <MESSAGE value="[3.26]sourcecode部分" />
     <MESSAGE value="[3.27]热修复部分" />
     <MESSAGE value="[3.28]面试不足部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3.28]面试不足部分" />
+    <MESSAGE value="[3.29]红黑树" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3.29]红黑树" />
   </component>
 </project>

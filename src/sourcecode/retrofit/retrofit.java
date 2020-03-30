@@ -9,6 +9,7 @@ public class retrofit {
      * 默认根据platform获取：请求转换器返回的实体的转换
      */
     /**
+     * retrofit接口的形式封装了请求
      * 请求时主要是注解的解释
      */
 }
