@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/android/apk/apk安装大致流程.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/生命周期/android横竖屏生命周期.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/路由/路由方案Arouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/thread/协程.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/变量/String的各个.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/变量/equal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/变量/equal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/变量/java基本数据类型.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/冒泡/冒泡排序说明.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/插入/插入排序.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/插入/插入排序说明.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/选择/选择排序说明.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/常用数据结构.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newtech/Serverless.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newtech/serverless.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/优化/appoptimize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/优化/appoptimize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/生命周期/activity生命周期.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/生命周期/activity生命周期.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourcecode/retrofit/retrofit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourcecode/retrofit/retrofit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/冒泡/bubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/insertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/插入/insertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/快速/quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/selectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/选择/selectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/test/TestQuick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/test/testBubble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/test/testInsert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/test/testSelect.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,21 +44,21 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/javatest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/arithmetic/插入" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/arithmetic/插入" />
+      <recent name="$PROJECT_DIR$/src/arithmetic/冒泡" />
+      <recent name="$PROJECT_DIR$/src/newtech" />
+      <recent name="$PROJECT_DIR$/src/javatest" />
+      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/javatest/equal" />
       <recent name="$PROJECT_DIR$/src/datastructure/红黑树/查找" />
       <recent name="$PROJECT_DIR$/src/android/自定义view/measure" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/javatest" />
-      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2" />
-      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/删除" />
-      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/插入/插入情景42" />
-      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/插入/41" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -69,20 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.client">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.structural_design_pattern.proxy.dynamic.Client" />
-      <module name="review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design_pattern.structural_design_pattern.proxy.dynamic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.insertSort">
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design_pattern.behavioral_design_pattern.ChainOfResponsibility.Client" />
       <module name="review" />
@@ -102,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="design_pattern.behavioral_design_pattern.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.冒泡.bubbleSort" />
+      <module name="review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.选择.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="insertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.插入.insertSort" />
+      <module name="review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.选择.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.insertSort" />
+        <item itemvalue="Application.bubbleSort" />
         <item itemvalue="Application.client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585497024448</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[3.30]补漏，补习3个排序">
+      <created>1585551922569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585551922569</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +277,7 @@
     <MESSAGE value="[3.27]热修复部分" />
     <MESSAGE value="[3.28]面试不足部分" />
     <MESSAGE value="[3.29]红黑树" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3.29]红黑树" />
+    <MESSAGE value="[3.30]补漏，补习3个排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3.30]补漏，补习3个排序" />
   </component>
 </project>

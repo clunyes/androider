@@ -1,4 +1,4 @@
-package arithmetic;
+package arithmetic.选择;
 
 import java.util.Arrays;
 

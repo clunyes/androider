@@ -1,4 +1,4 @@
-package arithmetic;
+package arithmetic.插入;
 
 import java.util.Arrays;
 

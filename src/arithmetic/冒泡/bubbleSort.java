@@ -1,4 +1,4 @@
-package arithmetic;
+package arithmetic.冒泡;
 
 import java.util.Arrays;
 
