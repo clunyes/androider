@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6140c9c5-d309-4bf6-ad8c-8e2031ea352e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arithmetic/冒泡/冒泡排序说明.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmetic/插入/插入排序.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmetic/插入/插入排序说明.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmetic/选择/选择排序说明.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/常用数据结构.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newtech/Serverless.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newtech/serverless.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/冒泡/冒泡排序.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/归并/归并和快排的区别.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/归并/归并排序.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/归并/归并排序说明.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/快速/快速排序说明.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/栈/栈.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/硬件/不同的arm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/冒泡/bubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/insertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/插入/insertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/快速/quickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/selectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/选择/selectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/test/TestQuick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/test/testBubble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/test/testInsert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/test/testSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/冒泡/冒泡排序说明.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/冒泡/冒泡排序说明.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/选择/选择排序说明.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/选择/选择排序说明.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +38,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/arithmetic/插入" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/arithmetic/归并" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/arithmetic/插入" />
+      <recent name="$PROJECT_DIR$/src/arithmetic/归并" />
+      <recent name="$PROJECT_DIR$/src/arithmetic/快速" />
       <recent name="$PROJECT_DIR$/src/arithmetic/冒泡" />
+      <recent name="$PROJECT_DIR$/src/arithmetic/插入" />
       <recent name="$PROJECT_DIR$/src/newtech" />
-      <recent name="$PROJECT_DIR$/src/javatest" />
-      <recent name="$PROJECT_DIR$/src/datastructure/红黑树/删除/情景2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/javatest/equal" />
@@ -250,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585551922569</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[3.30]算法排序1">
+      <created>1585558997373</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585558997373</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +279,7 @@
     <MESSAGE value="[3.28]面试不足部分" />
     <MESSAGE value="[3.29]红黑树" />
     <MESSAGE value="[3.30]补漏，补习3个排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3.30]补漏，补习3个排序" />
+    <MESSAGE value="[3.30]算法排序1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3.30]算法排序1" />
   </component>
 </project>
