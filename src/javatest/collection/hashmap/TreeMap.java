@@ -1,4 +1,4 @@
-package javatest.collection;
+package javatest.collection.hashmap;
 
 public class TreeMap {
     /**

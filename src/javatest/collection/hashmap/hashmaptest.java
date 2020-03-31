@@ -1,6 +1,8 @@
-package javatest.collection;
+package javatest.collection.hashmap;
+
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class hashmaptest {
     /**
@@ -18,7 +20,6 @@ public class hashmaptest {
      * 但假如开发者使用了不合适的hash算法，O(1)级别的数组查询会退化到O(n)级链表查询，因此在JDK8中引入红黑树的，当一个结点的链表长度大于8时，
      * 链表会转换成红黑树，提高查询效率,而链表长度小于6时又会退化成链表
      *
-     * https://www.cnblogs.com/chengxiao/p/6059914.html
      */
 
 //    int hash = hash(key.hashCode());//对key的hashcode进一步计算，确保散列均匀
@@ -51,4 +52,5 @@ public class hashmaptest {
      * 优点是如果调用者没有修改该资源，就不会有副本（private copy）被建立，因此多个调用者只是读取操作时可以共享同一份资源。
      *
      */
+
 }

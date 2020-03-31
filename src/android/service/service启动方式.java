@@ -16,5 +16,6 @@ public class service启动方式 {
      * 绑定服务不会调用onstart()或者onstartcommand()方法
      * 特点：bind的方式开启服务，绑定服务，调用者挂了，服务也会跟着挂掉。绑定者可以调用服务里面的方法。
      *
+     *
      */
 }
