@@ -1,4 +1,4 @@
-package android;
+package android.recyclerview;
 
 public class recyclerview {
     /**

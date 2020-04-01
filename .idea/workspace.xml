@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58fd9bf8-4d59-4fd8-ad1e-2494760b1f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/androider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/service/rebind.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/service/service混合启动.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/自定义view/view的生命周期.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_pattern/creational_design_pattern/prototype/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javatest/collection/hashmap/sixeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/recyclerview/diffutils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/主线程刷新ui/canvas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/主线程刷新ui/canvas和view.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/主线程刷新ui/surfaceview双缓冲.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/主线程刷新ui/view刷新.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/主线程刷新ui/view在ondraw之后是怎么绘制上去的.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/主线程刷新ui/view的刷新.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/主线程刷新ui/什么要主线程刷新ui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/优化/电量优化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/优化/电量优化.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/图片/超级大图加载.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/适配/屏幕适配.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourcecode/butterknife/butterknife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourcecode/retrofit/retrofit详细.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourcecode/retrofit/一些设计模式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourcecode/retrofit/详细理解.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/service/service启动方式.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/service/service启动方式.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/collection/ConcurrentHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/hashmap/ConcurrentHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/collection/TreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/hashmap/TreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/collection/hashmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/hashmap/hashmap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/collection/hashmaptest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/hashmap/hashmaptest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/recyclerview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/recyclerview/recyclerview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/主线程ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/主线程刷新ui/主线程ui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arithmetic/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +41,7 @@
   </component>
   <component name="ProjectId" id="1ZtejzcoHjZ2uli0vxWg4prje81" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -45,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/优化" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -53,6 +60,9 @@
       <recent name="$PROJECT_DIR$/src/javatest/collection/hashmap" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/android/优化" />
+      <recent name="$PROJECT_DIR$/src/sourcecode/retrofit" />
+      <recent name="$PROJECT_DIR$/src/android/主线程刷新ui" />
       <recent name="$PROJECT_DIR$/src/android/service" />
     </key>
   </component>
@@ -87,6 +97,14 @@
       <option name="presentableId" value="Default" />
       <updated>1585662957825</updated>
     </task>
+    <task id="LOCAL-00001" summary="[3.31]map修改">
+      <created>1585668363094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585668363094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,11 +120,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[3.31]map修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3.31]map修改" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1585666248577">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585666248577" />
+    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2" timestamp="1585668362762">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585668362762" />
     <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1585668181819">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
