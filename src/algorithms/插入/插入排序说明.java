@@ -1,4 +1,4 @@
-package arithmetic.插入;
+package algorithms.插入;
 
 public class 插入排序说明 {
     /**

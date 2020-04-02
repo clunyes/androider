@@ -19,8 +19,6 @@ public class binder {
      * 这样，就造就了ServiceManager的特殊性。于是，在Binder驱动中，将句柄0指定为ServiceManager对应的句柄，通过这个特殊的句柄就能获取ServiceManager对象。这部分的知识后面会详细介绍。
      *
      *
-     * 为啥选择binder
-     * binder：1.cs架构 2.效率高（只要一次拷贝，使用内存映射技术）3.安全性  验证UID/PID(用户ID/进程ID)
      */
 
     /**

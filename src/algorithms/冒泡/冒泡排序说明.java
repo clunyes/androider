@@ -1,4 +1,4 @@
-package arithmetic.冒泡;
+package algorithms.冒泡;
 
 public class 冒泡排序说明 {
     /**

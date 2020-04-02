@@ -1,4 +1,4 @@
-package arithmetic.快速;
+package algorithms.快速;
 
 public class 快速排序说明 {
     /**

@@ -1,4 +1,4 @@
-package network;
+package network.https;
 
 public class https {
     /**

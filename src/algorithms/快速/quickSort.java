@@ -1,4 +1,4 @@
-package arithmetic.快速;
+package algorithms.快速;
 
 import java.util.Arrays;
 
