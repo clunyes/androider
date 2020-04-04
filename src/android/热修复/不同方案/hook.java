@@ -1,4 +1,4 @@
-package android.热修复;
+package android.热修复.不同方案;
 
 public class hook {
     /**

@@ -15,7 +15,7 @@ public class _queue {
     /**
      * 将一个对象追加到队列尾部
      *
-     * @param obj 对象
+     * @param str 对象
      * @return 队列满时返回false, 否则返回true
      */
     public boolean enqueue(String str) {

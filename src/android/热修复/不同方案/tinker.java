@@ -1,7 +1,9 @@
-package android.热修复;
+package android.热修复.不同方案;
 
 public class tinker {
     /**
+     * qq空间的方式是全量替换dex，
+     * tinker采用差分算法生成patch.dex，在手机上这个patch.dex又会和原有的class.dex 合并生成新的文件fix_class.dex
      *
      * Tinker 定位是热更新，支持类替换、so替换、资源替换，重启后生效。
      *

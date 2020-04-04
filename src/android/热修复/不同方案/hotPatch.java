@@ -1,4 +1,4 @@
-package android.热修复;
+package android.热修复.不同方案;
 
 public class hotPatch {
     /**
@@ -7,11 +7,10 @@ public class hotPatch {
      * 类加载方案时效性差，需要重新冷启动才能见效，但修复范围广，限制少。(dex替换)
      */
     /**
-     * 目前热修复框架主要有QQ空间补丁、HotFix、Tinker、Robust等。热修复框架按照原理大致可以分为三类：
+     * 目前热修复框架主要有QQ空间补丁、HotFix、Tinker、Robust等。热修复框架按照原理大致可以分为两种：
      *
-     * 1. 基于 multidex机制 干预 ClassLoader 加载dex
-     * 2. native 替换方法结构体
-     * 3. instant-run 插桩方案
+     *  1. ClassLoader 加载方案
+     *  2. Native层替换方案
      *
      * QQ空间补丁和Tinker都是使用的方案一； 阿里的AndFix使用的是方案二； 美团的Robust使用的是方案三。
      *

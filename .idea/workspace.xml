@@ -2,41 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58fd9bf8-4d59-4fd8-ad1e-2494760b1f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/求单链表的倒数第n个元素的值.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/binder/为什么使用binder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/数组/_queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/数组/_stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/队列/基础概念.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/队列/队列的队满队空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/everyday/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/https/ssl2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/https/ssl的过程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/https/ssl的验证过程.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourcecode/butterknife/bf对应文件.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/atoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/gameOfLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java找出topK的值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/在排序数组中查找元素的第一个和最后一个位置.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/选择/选择排序.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/jetpack/jetpack是什么.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/classloader/双亲委托.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/classloader/实战.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/classloader/热修复原理.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/为什么要multidex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/二叉树/bintree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/二叉树/java实现.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/图.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/邻接矩阵/邻接矩阵.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/邻接表/邻接表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/堆/堆.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/堆/堆和搜索二叉树的区别.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/binder/binder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/binder/binder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/适配/屏幕适配.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/适配/屏幕适配.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/binarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/冒泡/bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/冒泡/bubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/冒泡/冒泡排序.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/冒泡/冒泡排序.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/冒泡/冒泡排序说明.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/冒泡/冒泡排序说明.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/归并/归并和快排的区别.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/归并/归并和快排的区别.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/归并/归并排序.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/归并/归并排序.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/归并/归并排序说明.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/归并/归并排序说明.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/快速/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/快速/quickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/快速/快速排序说明.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/快速/快速排序说明.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/插入/insertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/插入/insertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/插入/插入排序.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/插入/插入排序.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/插入/插入排序说明.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/插入/插入排序说明.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/选择/selectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/选择/selectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arithmetic/选择/选择排序说明.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/选择/选择排序说明.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/常用数据结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/常用数据结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/栈/栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/栈/栈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatest/thread/拒绝策略.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/thread/拒绝策略.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/https.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/https/https.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/三次握手.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/https/三次握手.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/四次分手.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/https/四次分手.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/插件化/插件化.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/插件化/插件化.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/热修复/hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/热修复/hotPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/hotPatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/热修复/robust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/robust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/热修复/sophix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/sophix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/热修复/tinker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/tinker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/组件化/组件化.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/组件化/组件化.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/数组/_queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/数组/_queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,23 +60,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datastructure/队列" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/热修复/classloader" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/android/热修复/classloader" />
+      <recent name="$PROJECT_DIR$/src/algorithms/选择" />
       <recent name="$PROJECT_DIR$/src/datastructure/队列" />
       <recent name="$PROJECT_DIR$/src/network/https" />
       <recent name="$PROJECT_DIR$/src/sourcecode/butterknife" />
-      <recent name="$PROJECT_DIR$/src/android/优化" />
-      <recent name="$PROJECT_DIR$/src/sourcecode/retrofit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/network/https" />
       <recent name="$PROJECT_DIR$/src/javatest/collection/hashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._queue">
+  <component name="RunManager" selected="Application.atoi">
     <configuration name="屏幕适配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="android.适配.屏幕适配" />
       <module name="androider" />
@@ -110,12 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.creational_design_pattern.prototype.test" />
+    <configuration name="atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.atoi" />
       <module name="androider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_pattern.creational_design_pattern.prototype.*" />
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.gameOfLife" />
+      <module name="androider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.atoi" />
+        <item itemvalue="Application.gameOfLife" />
         <item itemvalue="Application._queue" />
         <item itemvalue="Application.test1" />
         <item itemvalue="Application.屏幕适配" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585733464422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[4.2]数组实现栈，队列">
+      <created>1585809534193</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585809534193</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,49 +203,54 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[3.31]map修改" />
     <MESSAGE value="[4.1]优化的补充，开始算法学习。。。" />
-    <option name="LAST_COMMIT_MESSAGE" value="[4.1]优化的补充，开始算法学习。。。" />
+    <MESSAGE value="[4.2]数组实现栈，队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="[4.2]数组实现栈，队列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1585666248577">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585666248577" />
-    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2" timestamp="1585733464209">
+    <state x="483" y="74" key="#xdebugger.evaluate" timestamp="1585895086064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585733464209" />
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1585809139463">
+    <state x="483" y="74" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1585895086064" />
+    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2" timestamp="1585809533770">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585809139463" />
-    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1585809139461">
+    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585809533770" />
+    <state width="1398" height="284" key="GridCell.Tab.0.bottom" timestamp="1585898380635">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585809139461" />
-    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1585809139459">
+    <state width="1398" height="284" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585898380635" />
+    <state width="1398" height="284" key="GridCell.Tab.0.center" timestamp="1585898380632">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585809139459" />
-    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1585809139462">
+    <state width="1398" height="284" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585898380632" />
+    <state width="1398" height="284" key="GridCell.Tab.0.left" timestamp="1585898380628">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585809139462" />
-    <state width="1398" height="284" key="GridCell.Tab.1.bottom" timestamp="1585808723695">
+    <state width="1398" height="284" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585898380628" />
+    <state width="1398" height="284" key="GridCell.Tab.0.right" timestamp="1585898380633">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585808723695" />
-    <state width="1398" height="284" key="GridCell.Tab.1.center" timestamp="1585808723694">
+    <state width="1398" height="284" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585898380633" />
+    <state width="1398" height="284" key="GridCell.Tab.1.bottom" timestamp="1585898380639">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585808723694" />
-    <state width="1398" height="284" key="GridCell.Tab.1.left" timestamp="1585808723693">
+    <state width="1398" height="284" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585898380639" />
+    <state width="1398" height="284" key="GridCell.Tab.1.center" timestamp="1585898380637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585808723693" />
-    <state width="1398" height="284" key="GridCell.Tab.1.right" timestamp="1585808723695">
+    <state width="1398" height="284" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585898380637" />
+    <state width="1398" height="284" key="GridCell.Tab.1.left" timestamp="1585898380636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585808723695" />
+    <state width="1398" height="284" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585898380636" />
+    <state width="1398" height="284" key="GridCell.Tab.1.right" timestamp="1585898380638">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585898380638" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1585809379060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -253,5 +272,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="376" y="61" width="687" height="777" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585665503860" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/gameOfLife.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/atoi.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
