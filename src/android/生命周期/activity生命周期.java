@@ -27,9 +27,9 @@ public class activity生命周期 {
      */
 
     /**
-     * 触发异常生命周期原因
-     *     资源相关的系统配置发生改变导致Activity被销毁并重建
-     *         比如横竖屏切换
-     *     资源内存不足导致低优先级的Activity被回收销毁
+     * 触发异常生命周期原因（onSaveInstanceState，onRestoreInstanceState）
+     * onSaveInstanceState的调用遵循一个重要原则，即当系统“未经你许可”时销毁了你的activity，则onSaveInstanceState会被系统调用，
+     * 这是系统的责任，因为它必须要提供一个机会让你保存你的数据。
+     *
      */
 }

@@ -24,6 +24,8 @@ public class fragment生命周期 {
      *
      * (11) onDetach()：与Activity解除绑定
      *
-     * Fragment虽然有onResume()和onPause()方法，但是这两个方法是Activity的方法调用时机也与Activity相同，和ViewPager搭配使用这个方法就很鸡肋了，根本不是你想要的效果，使用onHiddenChanged。
+     * Fragment虽然有onResume()和onPause()方法，但是这两个方法是Activity的方法调用时机也与Activity相同，
+     * 和ViewPager搭配使用这个方法就很鸡肋了，根本不是你想要的效果，
+     * 一起使用onHiddenChanged() + onResume()/onPause() + setUserVisibleHint()。
      */
 }

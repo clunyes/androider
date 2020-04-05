@@ -10,6 +10,7 @@ public class appoptimize {
      *
      *
      * 使用一些性能管理工具，tencent matrix  https://github.com/Tencent/matrix#matrix_android_cn
+     * （应用安装包大小，帧率变化，启动耗时，卡顿，慢方法，SQLite 操作优化，文件读写，内存泄漏等等。）
      */
     /**
      * 1. 交互的优化：
