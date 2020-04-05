@@ -147,6 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.Client (4)" />
+      <item itemvalue="Application.client" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.client" />
