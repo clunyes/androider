@@ -18,5 +18,8 @@ public class mvvm {
      *
      * android双向绑定
      */
+    /**
+     * https://github.com/SamYStudiO/Beaver 实战
+     */
 
 }

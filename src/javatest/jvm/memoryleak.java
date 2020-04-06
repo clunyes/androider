@@ -11,7 +11,6 @@ public class memoryleak {
      * 4. 静态集合，手动clear，置空
      */
     /**
-     * mat
      * leakcanary 都可以检测解决该类问题
      */
 
