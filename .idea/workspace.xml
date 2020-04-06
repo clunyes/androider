@@ -2,34 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58fd9bf8-4d59-4fd8-ad1e-2494760b1f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/atoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/gameOfLife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java找出topK的值.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/在排序数组中查找元素的第一个和最后一个位置.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/选择/选择排序.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/jetpack/jetpack是什么.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/classloader/双亲委托.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/classloader/实战.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/classloader/热修复原理.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/热修复/为什么要multidex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/二叉树/bintree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/二叉树/java实现.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/图/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/图/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/图/图.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/图/邻接矩阵/邻接矩阵.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/图/邻接表/邻接表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/堆/堆.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/堆/堆和搜索二叉树的区别.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/hash/Hash的特点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/hash/Hash碰撞的解决方案.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/hash/hash是什么.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/hash/装填因子.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/接雨水.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/编辑距离.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/aop编程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/instantrun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/instantrun热插拔.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/andfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/robust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/广度优先/广度优先搜索.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/深度优先/深度优先.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/图/深度优先/深度优先搜索.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/thread/ThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/thread/线程池.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/插件化/插件化.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/插件化/插件化.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/热修复/hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/热修复/hotPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/hotPatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/热修复/robust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/robust.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/热修复/sophix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/sophix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/热修复/tinker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/tinker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/组件化/组件化.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/组件化/组件化.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/数组/_queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/数组/_queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/热修复/不同方案/robust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/热修复/不同方案/robust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/图/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/图/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/图/图.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/图/图.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/图/邻接表/邻接表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/图/邻接表/邻接表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/常用数据结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/常用数据结构.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designframework/mvvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designframework/mvvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/everyday/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/collection/hashmap/sixeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/collection/hashmap/sixeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/jvm/memoryleak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatest/thread/协程.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatest/thread/协程.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +64,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/热修复/classloader" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/android/热修复" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/android/热修复/classloader" />
-      <recent name="$PROJECT_DIR$/src/algorithms/选择" />
-      <recent name="$PROJECT_DIR$/src/datastructure/队列" />
-      <recent name="$PROJECT_DIR$/src/network/https" />
-      <recent name="$PROJECT_DIR$/src/sourcecode/butterknife" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/android/热修复" />
       <recent name="$PROJECT_DIR$/src/network/https" />
       <recent name="$PROJECT_DIR$/src/javatest/collection/hashmap" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/android/热修复" />
+      <recent name="$PROJECT_DIR$/src/android/热修复/不同方案" />
+      <recent name="$PROJECT_DIR$/src/datastructure/图/深度优先" />
+      <recent name="$PROJECT_DIR$/src/javatest/thread" />
+      <recent name="$PROJECT_DIR$/src/android/热修复/classloader" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.atoi">
-    <configuration name="屏幕适配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="android.适配.屏幕适配" />
+  <component name="RunManager" selected="Application.编辑距离">
+    <configuration name="接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.接雨水" />
       <module name="androider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="android.适配.*" />
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.数组._queue" />
+    <configuration name="编辑距离" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.编辑距离" />
       <module name="androider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.数组.*" />
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LFUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.LFUCache" />
+      <module name="androider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="everyday.test1" />
-      <module name="androider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="everyday.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (3)" />
@@ -150,11 +155,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.编辑距离" />
+        <item itemvalue="Application.LFUCache" />
+        <item itemvalue="Application.接雨水" />
         <item itemvalue="Application.atoi" />
         <item itemvalue="Application.gameOfLife" />
-        <item itemvalue="Application._queue" />
-        <item itemvalue="Application.test1" />
-        <item itemvalue="Application.屏幕适配" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585809534193</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[4.3]二维数组，图to be continue">
+      <created>1586001346090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586001346090</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,53 +222,58 @@
     <MESSAGE value="[3.31]map修改" />
     <MESSAGE value="[4.1]优化的补充，开始算法学习。。。" />
     <MESSAGE value="[4.2]数组实现栈，队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="[4.2]数组实现栈，队列" />
+    <MESSAGE value="[4.3]二维数组，图to be continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="[4.3]二维数组，图to be continue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1585666248577">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585666248577" />
-    <state x="483" y="74" key="#xdebugger.evaluate" timestamp="1585895086064">
+    <state x="433" y="45" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1586014622871">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="483" y="74" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1585895086064" />
-    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2" timestamp="1585809533770">
+    <state x="433" y="45" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1440.900@0.0.1440.900" timestamp="1586014622871" />
+    <state x="483" y="74" key="#xdebugger.evaluate" timestamp="1586150918267">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585809533770" />
-    <state width="1398" height="284" key="GridCell.Tab.0.bottom" timestamp="1585898380635">
+    <state x="483" y="74" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1586150918267" />
+    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2" timestamp="1586153873285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585898380635" />
-    <state width="1398" height="284" key="GridCell.Tab.0.center" timestamp="1585898380632">
+    <state x="338" y="23" width="763" height="813" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586153873285" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1586153857346">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585898380632" />
-    <state width="1398" height="284" key="GridCell.Tab.0.left" timestamp="1585898380628">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586153857346" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1586153857344">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585898380628" />
-    <state width="1398" height="284" key="GridCell.Tab.0.right" timestamp="1585898380633">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586153857344" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1586153857343">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585898380633" />
-    <state width="1398" height="284" key="GridCell.Tab.1.bottom" timestamp="1585898380639">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586153857343" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1586153857345">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585898380639" />
-    <state width="1398" height="284" key="GridCell.Tab.1.center" timestamp="1585898380637">
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586153857345" />
+    <state width="1398" height="207" key="GridCell.Tab.1.bottom" timestamp="1586153857348">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585898380637" />
-    <state width="1398" height="284" key="GridCell.Tab.1.left" timestamp="1585898380636">
+    <state width="1398" height="207" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586153857348" />
+    <state width="1398" height="207" key="GridCell.Tab.1.center" timestamp="1586153857347">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585898380636" />
-    <state width="1398" height="284" key="GridCell.Tab.1.right" timestamp="1585898380638">
+    <state width="1398" height="207" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586153857347" />
+    <state width="1398" height="207" key="GridCell.Tab.1.left" timestamp="1586153857347">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585898380638" />
+    <state width="1398" height="207" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586153857347" />
+    <state width="1398" height="207" key="GridCell.Tab.1.right" timestamp="1586153857348">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586153857348" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1585809379060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -265,11 +282,11 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="100" y="85" width="1240" height="775" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.813@0.23.1440.813" timestamp="1585807832319" />
-    <state x="384" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1585794358679">
+    <state x="384" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1586069160222">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="384" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585664122914" />
-    <state x="384" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1585794358679" />
+    <state x="384" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1586069160222" />
     <state x="508" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585668198557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -291,6 +308,36 @@
           <url>file://$PROJECT_DIR$/src/algorithms/atoi.java</url>
           <line>29</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/接雨水.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/接雨水.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/接雨水.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/接雨水.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/编辑距离.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/编辑距离.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
