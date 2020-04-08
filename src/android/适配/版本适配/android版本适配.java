@@ -1,4 +1,4 @@
-package android;
+package android.适配.版本适配;
 
 public class android版本适配 {
     /**
@@ -32,8 +32,14 @@ public class android版本适配 {
      */
     /**
      * android 10.0适配
-     * Android Q(10)中的媒体资源读写
-     * EditText默认不获取焦点，不自动弹出键盘
-     * Android Q开始，公有目录File API都失效，不能直接通过new File(path).exists();判断公有目录文件是否存在
+     * 1. Android Q 在外部存储设备中为每个应用提供了一个“隔离存储沙盒”（例如 /sdcard）。
+     * 任何其他应用都无法直接访问您应用的沙盒文件。由于文件是您应用的私有文件，
+     * 因此您不再需要任何权限即可在外部存储设备中访问和保存自己的文件。
+     * 此变更可让您更轻松地保证用户文件的隐私性，并有助于减少应用所需的权限数量。
+     * 沙盒，简单而言就是应用专属文件夹，并且访问这个文件夹无需权限。
+     * 谷歌官方推荐应用在沙盒内存储文件的地址为Context.getExternalFilesDir()下的文件夹。比如要存储一张图片,则应放在
+     *
+     * 2. 公有目录File API都失效，不能直接通过new File(path).exists();判断公有目录文件是否存在
+     * 3. EditText默认不获取焦点，不自动弹出键盘
      */
 }

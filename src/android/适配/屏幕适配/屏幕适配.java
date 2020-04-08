@@ -1,4 +1,4 @@
-package android.适配;
+package android.适配.屏幕适配;
 
 public class 屏幕适配 {
     /**

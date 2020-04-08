@@ -1,4 +1,4 @@
-package android.主线程刷新ui;
+package android.自定义view;
 
 public class surfaceview双缓冲 {
     /**

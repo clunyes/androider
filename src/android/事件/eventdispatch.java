@@ -1,4 +1,4 @@
-package android;
+package android.事件;
 
 public class eventdispatch {
     /**

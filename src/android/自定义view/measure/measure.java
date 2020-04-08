@@ -15,7 +15,8 @@ public class measure {
      *     （笔者注：也就是layout_width属性和layout_height属性为具体的数值，如50dp，或者设置为match_parent，设置为match_parent时也就明确为和父布局有同样的尺寸，
      *     所以这里不要以为笔者搞错了。当明确为精确的尺寸后，其也就被给定了一个精确的边界）
      *
-     *     5）AT_MOST：最大值模式。子view可以一直大到指定的值。（笔者注：也就是其宽高属性设置为wrap_content，那么它的最大值也不会超过父布局给定的值，所以称为最大值模式）
+     *     5）AT_MOST：最大值模式。子view可以一直大到指定的值。（
+     *     笔者注：也就是其宽高属性设置为wrap_content，那么它的最大值也不会超过父布局给定的值，所以称为最大值模式）
      *
      *     6）MeasureSpec被实现为int型来减少对象分配。该类用于将size和mode元组装包和拆包到int中。
      *
