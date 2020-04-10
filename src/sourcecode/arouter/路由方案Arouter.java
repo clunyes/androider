@@ -1,4 +1,4 @@
-package android.路由;
+package sourcecode.arouter;
 
 public class 路由方案Arouter {
     /**
