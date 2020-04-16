@@ -1,4 +1,4 @@
-package android.binder;
+package android.序列化;
 
 public class serializable {
     /**

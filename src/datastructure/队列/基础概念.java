@@ -10,4 +10,19 @@ public class 基础概念 {
      * 队列的概念很好理解，队列的应用也非常广泛如：循环队列、阻塞队列、并发队列、优先级队列等。
      *
      */
+    /**
+     *  add()  remove()           是有边界的，
+     *
+     *          *      add              超出之后会报 "java.lang.IllegalStateException: Queue full" 异常
+     *
+     *          *      remove         超出之后会报 "java.util.NoSuchElementException" 异常
+     *
+     *  offer()  poll()                 没有边界，会返回 boolean, peek():当前队列的第一个值，不会删除数据
+     *
+     *          *      true
+     *
+     *          *      false
+     *
+     * put()  take()                   阻塞 ，满了一直等，取不出来也一直等
+     */
 }
