@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.leetcode;
 
 public class 编辑距离 {
     public static int minDistance(String word1, String word2) {

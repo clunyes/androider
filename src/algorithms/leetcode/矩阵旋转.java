@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.leetcode;
 
 public class 矩阵旋转 {
     public static void rotate(int[][] matrix) {

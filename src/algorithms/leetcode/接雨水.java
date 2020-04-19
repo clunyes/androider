@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.leetcode;
 
 public class 接雨水 {
     public static int trap(int[] height) {

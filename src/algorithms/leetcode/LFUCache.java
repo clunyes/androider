@@ -1,9 +1,7 @@
-package algorithms;
+package algorithms.leetcode;
 
 import java.util.HashMap;
 import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.Map;
 
 /**
  * 源码也看不懂。。。

@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.leetcode;
 
 public class 求单链表的倒数第n个元素的值 {
     /**
