@@ -1,6 +1,5 @@
-package datastructure.二叉树.遍历;
+package datastructure.二叉树.leetcode探索;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
