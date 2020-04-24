@@ -32,4 +32,11 @@ public class activity生命周期 {
      * 这是系统的责任，因为它必须要提供一个机会让你保存你的数据。
      *
      */
+    /**
+     * 跳转的生命周期
+     *     当A界面点击进入B界面时，此时
+     *             onPause(A)--->onStart(B)--->onResume(B)--->onStop(A)
+     *     B界面退出，A界面显示，此时
+     *             onPause(B)---> onRestart(A)---> onStart(A)--->onResume(A)--->onStop(B)
+     */
 }
