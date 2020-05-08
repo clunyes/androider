@@ -1,4 +1,4 @@
-package datastructure.深度优先广度优先;
+package datastructure.广度优先;
 
 public class BFS2 {
 //    有时，确保我们永远不会访问一个结点两次很重要。

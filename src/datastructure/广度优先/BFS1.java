@@ -1,4 +1,4 @@
-package datastructure.深度优先广度优先;
+package datastructure.广度优先;
 
 public class BFS1 {
     //伪代码，忽略报错
