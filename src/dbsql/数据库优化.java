@@ -1,4 +1,4 @@
-package sql;
+package dbsql;
 
 public class 数据库优化 {
     /**
