@@ -2,6 +2,7 @@ package android.apk;
 
 public class apk安装大致流程 {
     /**
+     *
      * 拷贝apk到指定的目录
      * 解压apk、拷贝文件、创建应用的数据目录
      * 解析AndroidManifest,拿到构成此APP的各组件信息，以及启动信息

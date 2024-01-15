@@ -13,10 +13,12 @@ public class 主线程ui {
      * SurfaceView与View的区别
      *
      *     1. View的绘图效率不高，主要用于动画变化较少的程序
+     *     （android普通窗口的视图绘制机制是一层一层的，任何一个子元素或者是局部的刷新都会导致整个视图结构全部重绘一次，因此效率非常低下）
      *     2. SurfaceView 绘图效率较高，用于界面更新频繁的程序
      *     3. SurfaceView拥有独立的Surface（绘图表面），即它不与其宿主窗口共享同一个Surface。
      *     一般来说，每一个窗口在SurfaceFlinger服务中都对应有一个Layer，用来描述它的绘图表面。
-     *     对于那些具有SurfaceView的窗口来说，每一个SurfaceView在SurfaceFlinger服务中还对应有一个独立的Layer或者LayerBuffer，用来单独描述它的绘图表面，以区别于它的宿主窗口的绘图表面。
+     *     对于那些具有SurfaceView的窗口来说，每一个SurfaceView在SurfaceFlinger服务中还对应有一个独立的Layer或者LayerBuffer，
+     *     用来单独描述它的绘图表面，以区别于它的宿主窗口的绘图表面。
      *     因此SurfaceView的UI就可以在一个独立的线程中进行绘制，可以不会占用主线程资源。
      *
      *     4. SurfaceView使用双缓冲机制，播放视频时画面更流畅

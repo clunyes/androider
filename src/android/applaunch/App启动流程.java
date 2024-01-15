@@ -89,13 +89,4 @@ public class App启动流程 {
      *
      */
 
-    /**
-     *
-     * 暂时参考文章
-     *
-     *
-     * https://blog.csdn.net/pgg_cold/article/details/79491791
-     *
-     * app启动并不比activity启动复杂多少，多了一步application的初始信息
-     */
 }

@@ -9,3 +9,5 @@
 用于指定协程的运行载体，即用于指定协程要运行在哪类线程上
 4. CoroutineBuilder。即协程构建器，协程在 CoroutineScope 的上下文中通过 launch、async 等协程构建器来进行声明并启动。
 launch、async 均被声明为 CoroutineScope 的扩展方法
+
+协程底层通过状态机实现
