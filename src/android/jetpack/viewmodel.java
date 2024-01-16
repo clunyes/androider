@@ -17,4 +17,7 @@ public class viewmodel {
     /**
      * 如图所示，第一次ondestroy指的是意外关闭，viewmodel并未回收，finish关闭之后，正式回收
      */
+    /**
+     * 在海小豚的MVVM框架中，ViewModel负责数据逻辑处理
+     */
 }
