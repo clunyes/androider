@@ -30,7 +30,6 @@ public class measure {
      *     1）LayoutParams被view用于告诉它们的父布局它们想要怎样被布局。
      *
      *     2）该LayoutParams基类仅仅描述了view希望宽高有多大。对于每一个宽或者高，可以指定为以下三种值中的一个：MATCH_PARENT,WRAP_CONTENT,an exact number。
-     *     （笔者注：FILL_PARENT从API8开始已经被MATCH_PARENT取代了，所以下文就只提MATCH_PARENT）
      *
      *     3）MATCH_PARENT：意味着该view希望和父布局尺寸一样大，如果父布局有padding，则要减去该padding值。
      *

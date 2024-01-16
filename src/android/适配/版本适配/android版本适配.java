@@ -6,6 +6,7 @@ public class android版本适配 {
      *
      *正常权限。如果在AndroidManifest.xml列出了正常权限，系统将自动授予该权限。
      *危险权限。如果在AndroidManifest.xml中列出了危险权限，用户必须明确批准您的应用使用这些权限。
+     * 运行时申请权限
      */
     /**
      * Android 7.0 适配

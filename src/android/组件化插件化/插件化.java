@@ -1,4 +1,4 @@
-package android.插件化;
+package android.组件化插件化;
 
 public class 插件化 {
     /**
