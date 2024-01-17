@@ -22,7 +22,15 @@ public class Singleton {
         return single;
     }
 
-    //双重检查锁定
+    /**
+     * Double Check Lock 双重检查锁定
+     *
+     * DCL并不是十分稳定的，由于java编译器允许处理器乱序执行，所以这样做是有隐患的。
+     * 简单说，其实new对象的操作不是原子性的。
+     *
+     * 问题出在，线程1在执行new的时候重排了指令，导致极端情况下，线程2获取的单例没有初始化完成
+     * @return
+     */
     public static Singleton getSingleton03() {
         if (single == null) {
             synchronized (Singleton.class) {

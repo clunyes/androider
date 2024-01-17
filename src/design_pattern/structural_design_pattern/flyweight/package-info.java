@@ -11,5 +11,5 @@ package design_pattern.structural_design_pattern.flyweight;
  */
 
 /**
- * string常量池中的常量
+ * string常量池中的常量，享元模式体现了池子的概念
  */

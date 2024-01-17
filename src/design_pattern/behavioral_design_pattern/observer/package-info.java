@@ -6,5 +6,5 @@ observer观察者模式：观察者模式定义了对象之间的一对多依赖
  * 常见的listener就是观察者模式
  */
 /**
- * rxjava，eventBus
+ * rxjava，eventBus，liveData
  */

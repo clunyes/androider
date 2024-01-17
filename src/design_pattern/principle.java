@@ -2,6 +2,8 @@ package design_pattern;
 
 public class principle {
     /**
+     * 代码设计6大原则
+     *
      * 1.单一职责原则（Single Responsibility Principle, SRP）
      *
      * 定义：一个类应只包含单一的职责。
