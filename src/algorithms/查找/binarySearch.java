@@ -1,5 +1,8 @@
-package algorithms;
+package algorithms.查找;
 
+/**
+ * 二分查找
+ */
 public class binarySearch {
     /**
      * 有序的序列，每次都是以序列的中间位置的数来与待查找的关键字进行比较，每次缩小一半的查找范围，直到匹配成功。

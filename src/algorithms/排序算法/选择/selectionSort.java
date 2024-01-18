@@ -1,4 +1,4 @@
-package algorithms.选择;
+package algorithms.排序算法.选择;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package algorithms.快速;
+package algorithms.排序算法.快速;
 
 import java.util.Arrays;
 

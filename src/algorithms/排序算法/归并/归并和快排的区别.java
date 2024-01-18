@@ -1,4 +1,4 @@
-package algorithms.归并;
+package algorithms.排序算法.归并;
 
 public class 归并和快排的区别 {
     /**

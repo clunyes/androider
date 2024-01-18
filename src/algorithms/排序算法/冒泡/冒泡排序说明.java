@@ -1,4 +1,4 @@
-package algorithms.冒泡;
+package algorithms.排序算法.冒泡;
 
 public class 冒泡排序说明 {
     /**
