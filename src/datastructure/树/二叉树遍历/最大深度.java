@@ -1,4 +1,6 @@
-package datastructure.二叉树.leetcode探索;
+package datastructure.树.二叉树遍历;
+
+import datastructure.树.二叉树遍历.TreeNode;
 
 public class 最大深度 {
     private int answer;

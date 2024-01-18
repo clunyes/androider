@@ -1,4 +1,4 @@
-package datastructure.二叉树.leetcode探索;
+package datastructure.树.二叉树遍历;
 
 public class TreeNode {
     int val;

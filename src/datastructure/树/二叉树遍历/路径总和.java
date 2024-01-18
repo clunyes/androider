@@ -1,7 +1,6 @@
-package datastructure.二叉树.leetcode探索;
+package datastructure.树.二叉树遍历;
 
-import java.util.LinkedList;
-import java.util.List;
+import datastructure.树.二叉树遍历.TreeNode;
 
 public class 路径总和 {
 

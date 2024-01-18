@@ -1,14 +1,11 @@
-package datastructure.二叉树.leetcode探索;
+package datastructure.树.二叉树遍历;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class 前序遍历 {
-    static List<Integer> list;
-    public static void main(String[] args) {
-
-    }
-    public List<Integer> preorderTraversal(TreeNode root) {
+public class 中序遍历 {
+    List<Integer> list;
+    public List<Integer> inorderTraversal(TreeNode root) {
         list = new LinkedList<Integer>();
         loop(root);
         return list;
@@ -16,8 +13,8 @@ public class 前序遍历 {
 
     void loop(TreeNode root) {
         if (root != null) {
-            list.add(root.val);
             loop(root.left);
+            list.add(root.val);
             loop(root.right);
         }
     }
