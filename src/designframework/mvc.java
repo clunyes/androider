@@ -8,4 +8,11 @@ public class mvc {
      *
      * 问题：view和controller耦合非常紧密，2000行3000行的activity fragment
      */
+    /**
+     * View接受用户的交互请求。
+     * View将请求转交给Controller。
+     * Controller操作Model进行数据更新。
+     * 数据更新之后，Model通知View数据变化。
+     * View显示更新之后的数据。
+     */
 }

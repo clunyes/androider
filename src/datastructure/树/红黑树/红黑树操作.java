@@ -1,4 +1,4 @@
-package datastructure.红黑树;
+package datastructure.树.红黑树;
 
 public class 红黑树操作 {
     /**

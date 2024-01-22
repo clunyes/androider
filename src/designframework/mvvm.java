@@ -19,7 +19,7 @@ public class mvvm {
      * android双向绑定
      */
     /**
-     * https://github.com/android/sunflower 实战
+     * 引入livedata后，刷新数据时不必关心view的生命周期
      */
 
 }

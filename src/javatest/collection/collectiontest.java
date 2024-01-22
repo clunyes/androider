@@ -1,5 +1,6 @@
 package javatest.collection;
 
+import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class collectiontest {
@@ -24,14 +25,10 @@ public class collectiontest {
      */
 
     /**
-     * * 1. hashmap
-     * 2. hashtable 线程安全，键值都不能为null
-     * 3. linkedHashmap 是HashMap的一个子类，如果需要输出的顺序和输入的相同,那么用LinkedHashMap可以实现,它还可以按读取顺序来排列，像连接池中可以应用。
-     * 4. treeMap  取出来的是排序后的键值对。但如果您要按自然顺序或自定义顺序遍历键，那么TreeMap会更好。
-     *（LinkedHashMap保存了记录的插入顺序。TreeMap默认是按升序排，也可以指定排序的比较器。）
-     *
-     *
-     * 一般情况下，我们用的最多的是HashMap,HashMap里面存入的键值对在取出的时候是随机的,它根据键的HashCode值存储数据,根据键可以直接获取它的值，具有很快的访问速度。
-     * 在Map 中插入、删除和定位元素，HashMap 是最好的选择。
+     * 1. List和Set是存储单列数据的集合，Map是存储键和值这样的双列数据的集合；
+     * 2. List中存储的数据是有顺序，并且允许重复； Map中存储的数据是无序的，其键是不能重复的，
+     * 但是值是可以重复的；Set中存储的数据是无序的，且不允许有重复，但元素在集合中的位置由元素的hashCode决定，
+     * 3. 位置是固定的（Set 根据hashcode来进行数据的存储，所以位置是固定的，但是位置不是用户可以控制的，
+     * 所以对于用户来说 set 中的元素还是无序的）；
      */
 }

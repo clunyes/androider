@@ -1,4 +1,4 @@
-package datastructure.红黑树.插入;
+package datastructure.树.红黑树.插入;
 
 public class 插入 {
     /**

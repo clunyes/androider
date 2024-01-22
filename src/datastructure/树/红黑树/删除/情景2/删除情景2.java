@@ -1,4 +1,4 @@
-package datastructure.红黑树.删除.情景2;
+package datastructure.树.红黑树.删除.情景2;
 
 public class 删除情景2 {
     /**

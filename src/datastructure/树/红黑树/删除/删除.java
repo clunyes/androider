@@ -1,4 +1,4 @@
-package datastructure.红黑树.删除;
+package datastructure.树.红黑树.删除;
 
 public class 删除 {
     /**

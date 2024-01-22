@@ -1,4 +1,4 @@
-package datastructure.红黑树.插入.插入情景41;
+package datastructure.树.红黑树.插入.插入情景41;
 
 public class 插入情景41 {
     /**
