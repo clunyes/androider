@@ -1,6 +1,3 @@
-package javatest.collection.hashmap;
-
-public class sixeight {
     /**
      * 16是初始大小
      * 8成长为红黑树
@@ -19,5 +16,3 @@ public class sixeight {
      * 4 分配过大浪费资源
      * https://blog.csdn.net/zhucegemingzizheng/article/details/81289479 详细论证
      */
-
-}
