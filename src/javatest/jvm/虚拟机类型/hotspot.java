@@ -1,4 +1,4 @@
-package javatest.jvm;
+package javatest.jvm.虚拟机类型;
 
 public class hotspot {
     /**

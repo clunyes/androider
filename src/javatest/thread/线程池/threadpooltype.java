@@ -1,4 +1,4 @@
-package javatest.thread;
+package javatest.thread.线程池;
 
 public class threadpooltype {
     /**
