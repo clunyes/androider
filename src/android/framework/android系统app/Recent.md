@@ -1,0 +1,2 @@
+在Android11上，Recents功能分布在SystemUI和Launcher3里面集成
+UI部分转移到Launcher3中
