@@ -1,0 +1,5 @@
+An entry in the history stack, representing an activity.
+
+用于描述一个activity
+ActivityRecord是system_server进程中的对象，ActivityClientRecord和Activity都是App进程中的对象
+ActivityRecord 的部分重要的成员变量如下表所示

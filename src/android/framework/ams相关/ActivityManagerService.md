@@ -1,0 +1,4 @@
+ActivityManagerService简称AMS,在Android 10的版本 中，Activity的管理和调度移到ATM中，
+AMS负责 service,broadcast,provider的管理和调度
+
+在Android 10 中安卓为了将来的方案更设计更加明确，对AMS做了很 多修改,安卓的最终目的是把activity 和window融合

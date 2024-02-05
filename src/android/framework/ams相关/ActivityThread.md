@@ -1,0 +1,4 @@
+ActivityThread是Android Framework中一个非常重要的类，
+它代表一个应用进程的主线程，其职责就是调度及执行在该线程中运行的四大组件。
+
+ApplicationThread是ActivityThread的内部类。

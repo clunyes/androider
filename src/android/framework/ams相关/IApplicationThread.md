@@ -1,0 +1,3 @@
+AMS负责管理和调度进程，因此AMS需要通过Binder机制和应用进程通信。
+
+为此，Android提供了一个IApplicationThread接口，该接口定义了AMS和应用进程之间的交互函数
