@@ -1,3 +1,4 @@
 路径frameworks/base/packages/PackageInstaller/
 功能：APK安装
 InstallStart是PackageInstaller的入口Activity
+在PMS中对apk安装有详细说明。

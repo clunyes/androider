@@ -1,0 +1,4 @@
+内容在为知笔记整理了。
+
+参考为知笔记，Android/Android Framework/Android重要机制/Binder机制/Native Binder 中的
+ServiceManager中的binder，ServiceManager中的binder2

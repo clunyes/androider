@@ -91,6 +91,6 @@ public class activity启动流程 {
      */
 
     /**
-     * stub android.binder.binder
+     * stub android.framework.android重要机制.binder机制.binder
      */
 }
