@@ -1,4 +1,4 @@
-package android.存储;
+package android.基础.存储;
 
 public class 存储 {
     /**

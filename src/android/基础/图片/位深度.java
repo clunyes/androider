@@ -1,4 +1,4 @@
-package android.图片;
+package android.基础.图片;
 
 public class 位深度 {
     /**
