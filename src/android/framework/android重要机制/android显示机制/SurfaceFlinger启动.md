@@ -6,7 +6,7 @@
 ##### SurfaceFlinger 启动过程
 ![image](images/surfaceflinger启动.png)
 
-SurfaceFlinger可执行二进制文件surfaceflinger由main\_surfaceflinger.cpp文件独立编译而成，主要负责搭建进程启动环境：
+SurfaceFlinger可执行二进制文件surfaceflinger由main_surfaceflinger.cpp文件独立编译而成，主要负责搭建进程启动环境：
 
 ```
 int main(int, char ) {
