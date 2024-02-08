@@ -1,0 +1,6 @@
+# ActivityTaskManagerService
+ActivityTaskManagerService简称ATM, Android10新引 入功能，
+
+用来管理Activity的启动、调度等功能 Android10 中把原先在AMS中activity的管理移动到ATM中
+
+从Android 10的代码路径可以看出，管理Activity的ATM被放入到 的wm路径中，这个路径原先归WindowManagerService -WMS控制， 谷歌的目的也是希望在将来把activity和window融合在一起，减少冗 余代码以及AMS和WMS的协调工作

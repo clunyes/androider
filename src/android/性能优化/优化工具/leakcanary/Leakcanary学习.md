@@ -33,7 +33,9 @@ LeakCanary 通过以下 2 点实现内存泄漏监控：
 
 
 ##### LeakCanary 发现泄漏对象后就会触发分析吗？
-ObjectWatcher 判定被监控对象发生泄漏后，会通过接口方法 `OnObjectRetainedListener#onObjectRetained()` 回调到 LeakCanary 内部的管理器 InternalLeakCanary 处理（在前文 AppWatcher 初始化中提到过）。LeakCanary 不会每次发现内存泄漏对象都进行分析工作，而会进行两个拦截：
+ObjectWatcher 判定被监控对象发生泄漏后，会通过接口方法 `OnObjectRetainedListener#onObjectRetained()` 
+回调到 LeakCanary 内部的管理器 InternalLeakCanary 处理（在前文 AppWatcher 初始化中提到过）。
+LeakCanary 不会每次发现内存泄漏对象都进行分析工作，而会进行两个拦截：
 
 * **拦截 1：泄漏对象计数未达到阈值，或者进入后台时间未达到阈值；**
 * **拦截 2：计算距离上一次 HeapDump 未超过 60s。**

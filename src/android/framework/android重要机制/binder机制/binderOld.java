@@ -1,5 +1,8 @@
 package android.framework.android重要机制.binder机制;
 
+/**
+ * todo 旧的binder整理，根据理解，可以合并
+ */
 public class binderOld {
     /**
      * 参考文章
