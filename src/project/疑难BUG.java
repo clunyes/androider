@@ -1,6 +1,6 @@
 package project;
 
-public class bugdeal {
+public class 疑难BUG {
     /**
      * 难点处理
      * 1. TransactionTooLargeException

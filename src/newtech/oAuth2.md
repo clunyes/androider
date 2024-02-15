@@ -1,5 +1,4 @@
-package newtech;
-
+```
 public class oAuth2 {
     /**
      +--------+                               +---------------+
@@ -33,3 +32,4 @@ public class oAuth2 {
      * jwt: json web token
      */
 }
+```

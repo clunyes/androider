@@ -4,12 +4,12 @@ public class 内核base层 {
     /**
      * 公共资源（颜色，尺寸）、
      * 日志工具、
+     * 崩溃跟踪工具、
      * 数据库（room，objectbox，litepal）、
      * 图片加载（glide）
      * 网络库retrofit+okHttp3、
      * commonui（widget），
-     * arouter
+     * wmrouter
      * 等核心库。这些是整个 App 基础库。
-     *
      */
 }
