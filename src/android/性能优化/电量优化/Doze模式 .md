@@ -14,7 +14,7 @@ Doze模式
 * Wake Locks被忽略
 * AlarmManager闹铃会被推迟到下一个maintenance window响应
 * 使用`setAndAllowWhileIdle`或`SetExactAndAllowWhileIdle`设置闹铃的闹钟则不会受到Doze模式的影响
-* `setAlarmClock`设置的闹铃在Doze模式下仍然生效，但系统会在闹铃生效前退出Doze\* 系统不执行Wi-Fi/GPS扫描；
+* `setAlarmClock`设置的闹铃在Doze模式下仍然生效，但系统会在闹铃生效前退出Doze* 系统不执行Wi-Fi/GPS扫描；
 * 系统不允许同步适配器运行；
 * 系统不允许JobScheduler运行；
 

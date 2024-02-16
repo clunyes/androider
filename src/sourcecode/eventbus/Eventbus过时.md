@@ -1,0 +1,1 @@
+目前eventbus，已经被liveData替代了。

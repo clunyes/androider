@@ -43,5 +43,5 @@ LeakCanary 不会每次发现内存泄漏对象都进行分析工作，而会进
 ##### LeakCanary 如何分析堆快照？
 堆快照文件就是hprof文件。
 
-Shark 是为 **LeakCanary 2 提供支持的堆分析器**，它是 Kotlin 独立堆分析库，可在低内存占用情况下高速运行
+Shark 是为 **LeakCanary 2 提供支持的堆分析器**，它是 Kotlin 独立堆分析库，可在低内存占用情况下高速运行，替换原有的haha
 

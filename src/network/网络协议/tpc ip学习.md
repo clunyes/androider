@@ -33,21 +33,21 @@ socket函数对应于普通文件的打开操作。普通文件的打开操作�
 正如可以给fopen的传入不同参数值，以打开不同的文件。创建socket的时候，也可以指定不同的参数创建不同的socket描述符，socket函数的三个参数分别为：
 
 * domain：即协议域，又称为协议族（family）。
-常用的协议族有，AF\_INET、AF\_INET6、AF\_LOCAL（或称AF\_UNIX，Unix域socket）、AF\_ROUTE等等。
-协议族决定了socket的地址类型，在通信中必须采用对应的地址，如AF\_INET决定了要用ipv4地址（32位的）与端口号（16位的）的组合、
-AF\_UNIX决定了要用一个绝对路径名作为地址。
-* type：指定socket类型。常用的socket类型有，SOCK\_STREAM、SOCK\_DGRAM、SOCK\_RAW、SOCK\_PACKET、SOCK\_SEQPACKET等等
+常用的协议族有，AF_INET、AF_INET6、AF_LOCAL（或称AF_UNIX，Unix域socket）、AF_ROUTE等等。
+协议族决定了socket的地址类型，在通信中必须采用对应的地址，如AF_INET决定了要用ipv4地址（32位的）与端口号（16位的）的组合、
+AF_UNIX决定了要用一个绝对路径名作为地址。
+* type：指定socket类型。常用的socket类型有，SOCK_STREAM、SOCK_DGRAM、SOCK_RAW、SOCK_PACKET、SOCK_SEQPACKET等等
 （socket的类型有哪些？）。
-* protocol：故名思意，就是指定协议。常用的协议有，IPPROTO\_TCP、IPPTOTO\_UDP、IPPROTO\_SCTP、IPPROTO\_TIPC等，
+* protocol：故名思意，就是指定协议。常用的协议有，IPPROTO_TCP、IPPTOTO_UDP、IPPROTO_SCTP、IPPROTO_TIPC等，
 它们分别对应TCP传输协议、UDP传输协议、STCP传输协议、TIPC传输协议（这个协议我将会单独开篇讨论！）。
 
-注意：并不是上面的type和protocol可以随意组合的，如SOCK\_STREAM不可以跟IPPROTO\_UDP组合。当protocol为0时，会自动选择type类型对应的默认协议。
+注意：并不是上面的type和protocol可以随意组合的，如SOCK_STREAM不可以跟IPPROTO_UDP组合。当protocol为0时，会自动选择type类型对应的默认协议。
 
-当我们调用**socket**创建一个socket时，返回的socket描述字它存在于协议族（address family，AF\_XXX）空间中，
+当我们调用**socket**创建一个socket时，返回的socket描述字它存在于协议族（address family，AF_XXX）空间中，
 但没有一个具体的地址。如果想要给它赋值一个地址，就必须调用bind()函数，否则就当调用connect()、listen()时系统会自动随机分配一个端口。
 
 ## 3.2、bind()函数
-正如上面所说bind()函数把一个地址族中的特定地址赋给socket。例如对应AF\_INET、AF\_INET6就是把一个ipv4或ipv6地址和端口号组合赋给socket。
+正如上面所说bind()函数把一个地址族中的特定地址赋给socket。例如对应AF_INET、AF_INET6就是把一个ipv4或ipv6地址和端口号组合赋给socket。
 
 ```Plain Text
 int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
@@ -55,7 +55,7 @@ int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
 函数的三个参数分别为：
 
 * sockfd：即socket描述字，它是通过socket()函数创建了，唯一标识一个socket。bind()函数就是将给这个描述字绑定一个名字。
-* addr：一个conststructsockaddr \*指针，指向要绑定给sockfd的协议地址。
+* addr：一个conststructsockaddr *指针，指向要绑定给sockfd的协议地址。
 这个地址结构根据地址创建socket时的地址协议族的不同而不同，如ipv4对应的是：  
 
 ```Plain Text
@@ -134,7 +134,7 @@ TCP服务器监听到这个请求之后，就会调用accept()函数取接收请
 ```Plain Text
 int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
 ```
-accept函数的第一个参数为服务器的socket描述字，第二个参数为指向structsockaddr \*的指针，
+accept函数的第一个参数为服务器的socket描述字，第二个参数为指向structsockaddr *的指针，
 用于返回客户端的协议地址，第三个参数为协议地址的长度。如果accpet成功，
 那么其返回值是由内核自动生成的一个全新的描述字，代表与返回客户的TCP连接。
 

@@ -93,10 +93,10 @@ socket是"打开—读/写—关闭"模式的实现，以使用TCP协议通讯�
 
 ![image](images/image9.png)
 
-第一次握手：客户端尝试连接服务器，向服务器发送syn包（同步序列编号\_**Synchronize Sequence Numbers**\_），
-syn=j，客户端进入SYN\_SEND状态等待服务器确认
+第一次握手：客户端尝试连接服务器，向服务器发送syn包（同步序列编号_**Synchronize Sequence Numbers**_），
+syn=j，客户端进入SYN_SEND状态等待服务器确认
 
-第二次握手：服务器接收客户端syn包并确认（ack=j+1），同时向客户端发送一个SYN包（syn=k），即SYN+ACK包，此时服务器进入SYN\_RECV状态
+第二次握手：服务器接收客户端syn包并确认（ack=j+1），同时向客户端发送一个SYN包（syn=k），即SYN+ACK包，此时服务器进入SYN_RECV状态
 
 第三次握手：第三次握手：客户端收到服务器的SYN+ACK包，向服务器发送确认包ACK(ack=k+1），此包发送完毕，
 客户端和服务器进入ESTABLISHED状态，完成三次握手
@@ -116,11 +116,11 @@ int socket(int domain, int type, int protocol);
 ```
 根据指定的地址族、数据类型和协议来分配一个socket的描述字及其所用的资源。
 
-domain:协议族，常用的有AF\_INET、AF\_INET6、AF\_LOCAL、AF\_ROUTE其中AF\_INET代表使用ipv4地址
+domain:协议族，常用的有AF_INET、AF_INET6、AF_LOCAL、AF_ROUTE其中AF_INET代表使用ipv4地址
 
-type:socket类型，常用的socket类型有，SOCK\_STREAM、SOCK\_DGRAM、SOCK\_RAW、SOCK\_PACKET、SOCK\_SEQPACKET等
+type:socket类型，常用的socket类型有，SOCK_STREAM、SOCK_DGRAM、SOCK_RAW、SOCK_PACKET、SOCK_SEQPACKET等
 
-protocol:协议。常用的协议有，IPPROTO\_TCP、IPPTOTO\_UDP、IPPROTO\_SCTP、IPPROTO\_TIPC等
+protocol:协议。常用的协议有，IPPROTO_TCP、IPPTOTO_UDP、IPPROTO_SCTP、IPPROTO_TIPC等
 
 ```Plain Text
 int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
