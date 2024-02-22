@@ -1,4 +1,4 @@
-协程的四个基础概念
+协程是轻量级的线程，也可以认为是程序员可控的线程。
 
 协程的四个基础概念：
 
@@ -11,3 +11,16 @@
 launch、async 均被声明为 CoroutineScope 的扩展方法
 
 协程底层通过状态机实现
+
+```
+fun main() = runBlocking { // this: CoroutineScope
+    launch { doWorld() }
+    println("Hello")
+}
+
+// this is your first suspending function
+suspend fun doWorld() {
+    delay(1000L)
+    println("World!")
+}
+```
