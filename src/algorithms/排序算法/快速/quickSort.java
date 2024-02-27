@@ -6,7 +6,7 @@ public class quickSort {
     private static int times = 0;
 
     public static void main(String[] args) {
-        int[] a = {21, 32, 43, 98, 54, 45, 23, 4, 66, 86,66,45};
+        int[] a = {21, 32, 43, 98, 54, 45, 23, 4, 66, 86, 66, 45};
         quickSort(a);
         System.out.println(Arrays.toString(a));
     }
@@ -17,31 +17,35 @@ public class quickSort {
         }
     }
 
-    private static void quickSort(int[] a, int low, int high) {
+    private static void quickSort(int[] arr, int low, int high) {
         //1,找到递归算法的出口
-        if (low > high) {
+        if (low >= high) {
             return;
         }
-        //2, 存
-        int i = low;
-        int j = high;
-        //3,key
-        int key = a[low];
+        int left = low;
+        int right = high;
+        //待排序的第一个元素作为基准值
+        int key = arr[low];
         //4，完成一趟排序
-        while (i < j) { // 从表的两端交替向中间扫描
-            while (i < j && a[j] >= key)
-                j--;
-//            if (i < j)
-                a[i] = a[j];// 用比基准小的记录替换低位记录
-            while (i < j && a[i] < key)
-                i++;
-//            if (i < j) // 用比基准大的记录替换高位记录
-                a[j] = a[i];
+        while (left < right) {
+            while (right > left && arr[right] >= key) {
+                //从右往左扫描，找到第一个比基准值小的元素
+                right--;
+            }
+            //找到这种元素将arr[right]放入arr[left]中
+            arr[left] = arr[right];
+            while (left < right && arr[left] <= key) {
+                //从左往右扫描，找到第一个比基准值大的元素
+                left++;
+            }
+            //找到这种元素将arr[left]放入arr[right]中
+            arr[right] = arr[left];
         }
-        a[i] = key;// 将基准数值替换回 a[i]
+        //基准值归位
+        arr[left] = key;
         //5, 对key左边的数快排
-        quickSort(a, low, i - 1);
+        quickSort(arr, low, left - 1);
         //6, 对key右边的数快排
-        quickSort(a, i + 1, high);
+        quickSort(arr, right + 1, high);
     }
 }

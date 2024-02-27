@@ -36,7 +36,8 @@ public class HeapSort {
         }
     }
 
-    public void heapify(int[] nums, int index, int heapsize) { //从index位置开始heapify，即index处的数变小后重新整理数组恢复为大根堆结构的过程
+    public void heapify(int[] nums, int index, int heapsize) {
+        //从index位置开始heapify，即index处的数变小后重新整理数组恢复为大根堆结构的过程
         int left = 2*index+1;
         while (left< heapsize) { //下方还有孩子的时候
             //储存子结点中更大的数的下标 (有右比大，没右左大)
