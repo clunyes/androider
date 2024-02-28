@@ -18,4 +18,4 @@ SurfaceFlinger 必须始终显示内容，因此它会保留一个缓冲区。�
 
    下面是上述流程所对应的流程图， 简单地说， SurfaceFlinger 最主要的功能:
 「SurfaceFlinger 接受来自多个来源的数据缓冲区，对它们进行合成，然后发送到显示设备。」
-   ![image](images/bufferqueue.png)
+   ![image](images/image1.png)

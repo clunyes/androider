@@ -1,5 +1,5 @@
 # BufferQueue
-![image](images/Bufferqueue2.png)
+![image](images/image2.png)
 
 
 

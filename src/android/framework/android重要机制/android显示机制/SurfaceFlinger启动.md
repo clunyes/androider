@@ -4,7 +4,7 @@
 开机显示桌面、从桌面点击 App 图标到 Activity显示在屏幕上的过程又是怎样的呢？下面介绍Android系统中的“画家” - SurfaceFlinger.
 
 ##### SurfaceFlinger 启动过程
-![image](images/surfaceflinger启动.png)
+![image](images/image3.png)
 
 SurfaceFlinger可执行二进制文件surfaceflinger由main_surfaceflinger.cpp文件独立编译而成，主要负责搭建进程启动环境：
 
@@ -88,7 +88,7 @@ int main(int, char ) {
 
 　　
 
-![image](images/双缓冲.png)
+![image](images/image5.png)
 
 前缓冲区：用来显示内容到屏幕的帧缓冲区 
 　　 后缓冲区： 用于后台合成下一帧图形的帧缓冲区

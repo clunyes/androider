@@ -13,7 +13,7 @@ Choreographer 翻译为编舞者，负责从显示系统接收脉冲信号，编
 
 一次完整的绘制，是需要CPU、GPU和显示设备的配合，但是三者是一个并行运作的状态，那怎么相互协调呢？
 所以引进了VSync信号机制：每16ms，硬件（或者软件）会发出一个VSync信号，CPU接收到这个信号，开始了一次绘制流程。
-再下一次VSync信号到来之时，Display就可以直接显示第一帧，CPU也开始绘制第二帧。就这样循环下去。
+在下一次VSync信号到来之时，Display就可以直接显示第一帧，CPU也开始绘制第二帧。就这样循环下去。
 
 也就是说CPU和GPU必须要在这一次的VSync信号发生和下一次VSync信号到来之前要准备好这一帧的数据，否则就发生了掉帧的现象了。
 
@@ -51,7 +51,7 @@ Android 需要把 XML 布局文件转换成 GPU 能够识别并绘制的对象�
 Display List 持有所有将要交给 GPU 绘制到屏幕上的数据信息。
 
 ### 系统侧渲染
-##### 1\. Display List 数据交由 GPU 进行渲染处理
+##### 1. Display List 数据交由 GPU 进行渲染处理
 Android 需要把 XML 布局文件转换成 GPU 能够识别并绘制的对象。这个操作是在 DisplayList 的帮助下完成的。
 Display List 持有所有将要交给 GPU 绘制到屏幕上的数据信息。
 
@@ -67,14 +67,14 @@ Display List 是一个缓存绘制命令的 Buffer，Display List 的本质是�
 实际上只是将 Canvas API 调用及其参数记录在 Display List 中，然后等到下一个 VSYNC 信号到来时，
 记录在 Display List 里面的绘制命令才会转化为 Open GL 命令由 GPU 执行。
 
-##### 2\. GPU 渲染处理
+##### 2. GPU 渲染处理
 Android 使用 OpenGL ES (GLES) API 渲染图形。GPU 将视图栅格化后，生成 Surface。
 GPU 作为图像流生产方将显示内容，最终发送给图像流的消耗方 SurfaceFlinger。
 
 大多数客户端使用 OpenGL ES 或 Vulkan 渲染到 Surface 上（硬件加速，使用了 GPU 渲染）。
 但是，有些客户端使用画布渲染到 Surface 上（未使用硬件加速）。
 
-##### 3\. 生成 Surface 并存储到 BufferQueue
+##### 3. 生成 Surface 并存储到 BufferQueue
 Surface 对象使应用能够渲染要在屏幕上显示的图像。通过 SurfaceHolder 接口，
 应用可以编辑和控制 Surface。Surface 是一个接口，供生产方与使用方交换缓冲区。
 
@@ -106,7 +106,7 @@ BufferQueue 类将可生成图形数据缓冲区的组件（生产方）连接�
 
 数据处理过程：
 
-![image](../images/bufferqueue.png)
+![image](../images/image1.png)
 
 
 
@@ -117,8 +117,7 @@ SurfaceFlinger 做为消费者，接收到 BufferQueues 的通知后，取出可
 
 注意：SurfaceFlinger 创建并拥有 BufferQueue 数据结构，并且可存在于与其生产方不同的进程中。
 
-##### 4\. SurfaceFlinger 将显示数据发送给显示屏
-
+##### 4. SurfaceFlinger 将显示数据发送给显示屏
 SurfaceFlinger 接受来自多个源的数据缓冲区，然后将它们进行合成并发送到显示屏。
 WindowManager 为 SurfaceFlinger 提供缓冲区和窗口元数据，而 SurfaceFlinger 可使用这些信息将 Surface 合成到屏幕。
 
@@ -137,6 +136,8 @@ SurfaceFlinger 会遍历其层列表，以查找新的缓冲区。
 如果 SurfaceFlinger 找到新的缓冲区，SurfaceFlinger 会获取缓冲区；
 否则，SurfaceFlinger 会继续使用上一次获取的那个缓冲区。
 SurfaceFlinger 必须始终显示内容，因此它会保留一个缓冲区。如果在某个层上没有提交缓冲区，则该层会被忽略。
+(!!!! 这里应该涉及了双缓冲，如果在某个层上没有提交缓冲区，则仍然使用Front缓存区，如果有Back缓冲区有新数据，两者
+转换，back成为front，使用该缓冲区内容)
 
 
 
@@ -159,5 +160,8 @@ SurfaceFlinger 在收集可见层的所有缓冲区之后，便会询问硬件�
 
 **如图，操作完成后，由GPU完成渲染，存入bufferqueue**
 
-![image](../images/完整渲染流程.png)
+![image](../images/image6.png)
+
+
+针对卡顿问题：/Users/nicole317/demo_project/androider/src/android/性能优化/App启动优化/启动速度与执行效率优化1.md，也做了说明
 

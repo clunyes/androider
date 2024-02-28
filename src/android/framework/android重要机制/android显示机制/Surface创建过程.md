@@ -1,5 +1,5 @@
 # Surface创建过程
-![image](images/surface创建过程.png)
+![image](images/image4.png)
 
 Surface 创建的过程就是 Activity 显示的过程，在 ActivityThread.handleResumeActivity() 中调用了 Activity.makeVisible()具体实现：
 

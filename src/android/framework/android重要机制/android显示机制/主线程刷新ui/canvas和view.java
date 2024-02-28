@@ -1,4 +1,4 @@
-package android.基础.主线程刷新ui;
+package android.framework.android重要机制.android显示机制.主线程刷新ui;
 
 public class canvas和view {
     /**

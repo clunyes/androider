@@ -7,7 +7,7 @@ Choreographer 的引入，主要是配合 Vsync ，给上层 App 的渲染提供
 Vsync 信号到来唤醒 Choreographer 来做 App 的绘制操作 ，如果每个 Vsync 周期应用都能渲染完成，
 那么应用的 fps 就是 60 ，给用户的感觉就是非常流畅，这就是引入 Choreographer 的主要作用。
 
-![image](images/完整渲染流程.png)
+![image](images/image6.png)
 
 # Choreographer 简介
 Choreographer 扮演 Android 渲染链路中承上启下的角色
