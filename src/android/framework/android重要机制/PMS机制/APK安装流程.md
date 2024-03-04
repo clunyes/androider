@@ -20,5 +20,5 @@ InstallParams则负责单一安装，可以认为都是单一安装
 本质上就是通过Binder调用去与Linux底层installd守护进程通信完成真正的完成Apk文件格式的优化和转换、
 建立相关的数据目录、删除文件、安装应用等工作。因此在其他系统核心服务启动前首先被启动，
 
-![img.png](installer.png)
+![img.png](image/image1.png)
 
