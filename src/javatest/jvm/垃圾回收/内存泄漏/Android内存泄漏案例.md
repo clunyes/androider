@@ -132,8 +132,8 @@ class Police {
 **解决方法**:
 
 ```Plain Text
-//1\. sPolice 在 onDestory（）中 sPolice = null;
-//2\. 在 Police 构造函数中 将强引用 to 弱引用；
+//1. sPolice 在 onDestory（）中 sPolice = null;
+//2. 在 Police 构造函数中 将强引用 to 弱引用；
 
 
 ```

@@ -3,7 +3,7 @@
 
 
 
-### 1\. Activity启动方式
+### 1. Activity启动方式
 ```Plain Text
 //startActivity
 Intent intent = new Intent(ActivityA 实例, ActivityB.class);
@@ -12,7 +12,7 @@ startActivity(intent);
 startActivityForResult(intent,REQUEST_CODE);
 复制代码
 ```
-### 2\. Activity启动流程分析
+### 2. Activity启动流程分析
 假设ActivityA 启动ActivityB
 
 ```Plain Text

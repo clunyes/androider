@@ -1,4 +1,4 @@
-package android.动态化.组件化插件化;
+package android.动态化.组件化插件化.插件化;
 
 public class 插件化 {
     /**

@@ -8,4 +8,4 @@ Watchdog字面上是“看门狗”的意思，有做过嵌入式低层的朋友
 
 WatchDog 主要就是确保上述的服务发生死锁之后，退出SystemServer 进程，让init 进程重启它，让系统回到可用状态。 
 
-![img.png](watchdog.png)
+![img.png](images/watchdog.png)

@@ -1,3 +1,3 @@
 一个activity栈
 
-![img.png](stack和record.png)
+![img.png](../images/stack和record.png)

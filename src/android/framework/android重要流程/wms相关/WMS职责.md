@@ -12,4 +12,4 @@ WMS 的职责有点类似 AMS，但我觉得比 AMS 更会复杂，不是说其�
 
 WindowState，用于表示WMS中的窗口
 
-![img.png](简单流转.png)
+![img.png](images/简单流转.png)

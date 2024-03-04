@@ -16,9 +16,10 @@ DisplayManagerService、PackageManagerService、WindowManagerService、LauncherA
 ![image](images/image6.png)
 
 ```
-startBootstrapServices(); // 启动引导服务 
-startCoreServices(); // 启动核心服务 
-startOtherServices(); // 启动其他服务
+startBootstrapServices(); // 启动引导服务 ActivityManagerService、DisplayManagerService、PackageManagerService
+startCoreServices(); // 启动核心服务 BatteryService、UsageStatsService、WebViewUpdateService
+startOtherServices(); // 启动其他服务WindowManagerService、PowerManagerService、VibratorService
+、NetworkManagementService
 Phase480
 ```
 在SystemServer启动过程，从阶段0到阶段1000，一共8个阶段。（eg，Phase600）
