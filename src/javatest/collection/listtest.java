@@ -6,6 +6,5 @@ public class listtest {
      *
      * arraylist优势是查询，linkedlist优势插入删除
      *
-     *
      */
 }

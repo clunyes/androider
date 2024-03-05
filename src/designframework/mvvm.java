@@ -17,9 +17,7 @@ public class mvvm {
      比MVP更进一步，View和ViewModel的单元测试都很方便。
      *
      * android双向绑定
-     */
-    /**
+     *
      * 引入livedata后，刷新数据时不必关心view的生命周期
      */
-
 }

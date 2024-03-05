@@ -1,6 +1,7 @@
 package javatest.lock;
 
 public class synchonize {
+    private volatile int m = 0;
     /**
      * 在 Java 早期版本中，synchronized属于重量级锁，效率低下(ReentrantLock)
      * JDK 1.6 对synchronized同步锁做了的优化,目前比lock效率不差

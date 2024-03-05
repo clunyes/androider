@@ -3,8 +3,7 @@ package android.音视频;
 public class 核心类 {
     /**
      * android原生的MediaCodec方案，适配做的不好，有些手机不支持
-     */
-    /**
+     *
      * MediaCodec:用于创建视音频编解码器，通过它可以对视音频数据进行编解码操作，它是编解码功能的核心类。
      *
      * MediaMetadataRetriever

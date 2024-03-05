@@ -20,6 +20,9 @@ public class mvp {
      在MVP中，UserPresenter可以用于多个视图，但是在MVC中的Activity就不行。
      *
      * 问题：
-     * 1. presenter代码量过大：对于这点，有一个方法是在UI层和Presenter之间设置中介者Mediator，将例如数据校验、组装在内的轻量级逻辑操作放在Mediator中；在Presenter和Model之间使用代理Proxy
+     * 1. presenter代码量过大：对于这点，有一个方法是在UI层和Presenter之间设置中介者Mediator，
+     * 将例如数据校验、组装在内的轻量级逻辑操作放在Mediator中；在Presenter和Model之间使用代理Proxy
+     * 2. Presenter 对 Activity 与 Fragment 的生命周期是无感知的，所以我们需要手动添加相应的生命周期方法，
+     * 并进行特殊处理，以避免出现异常或内存泄露。在引入livedata后可以解决这个问题。
      */
 }

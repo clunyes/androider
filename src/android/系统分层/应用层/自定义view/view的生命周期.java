@@ -4,6 +4,8 @@ public class view的生命周期 {
     /**
      * 一些其他的方法
      *
+     * onDetachedFromWindow()
+     * 可以回收资源
      * onFinishInflate()
      * 该方法当View及其子View从XML文件中加载完成后触发调用。通常是在Activity中onCreate方法调用后调用。
      * onVisibilityChanged()

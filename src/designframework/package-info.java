@@ -8,9 +8,7 @@ package designframework;
  * 1. 维护困难。Presenter中除了业务逻辑以外，还有大量的View->Model，Model->View的手动同步逻辑，造成Presenter比较笨重，维护起来会比较困难。
  * 2. 接口膨胀
  * MVVM的缺点
- * 1. 对于简单的项目，使用MVVM有点大材小用。
- * 2. 对于过大的项目，数据绑定会导致内存开销大，影响性能。
- * 3. ViewModel和View的绑定，使页面异常追踪变得不方便。有可能是View出错，也有可能是ViewModel的业务逻辑有问题，也有可能是Model的数据出错。
+ * 1. 数据双向绑定不利于View部分的代码复用。
  * MVI也有一些缺点，比如
  * 1. 所有的操作最终都会转换成State，所以当复杂页面的State容易膨胀
  * 2. state是不变的，因此每当state需要更新时都要创建新对象替代老对象，这会带来一定内存开销
