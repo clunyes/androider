@@ -1,1 +1,4 @@
+核心就是register的时候将SubscriberMethod注册，保存到集合中，post执行事件时，查到对应方法，通过反射调用方法。
+unregister从集合中删除数据。
+
 目前eventbus，已经被liveData替代了。

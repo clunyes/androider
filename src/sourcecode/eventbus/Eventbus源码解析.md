@@ -40,7 +40,8 @@ if (ignoreGeneratedIndex) {
     subscriberMethods = findUsingInfo(subscriberClass);
 }
 ```
-如果不是ignoreGeneratedIndex，就是如果不忽略索引，走findUsingInfo，使用索引其实就是APT提前编译注解生成代码，提前注册好了SubscriberInfoIndex的实现类。怎么配置索引，自己百度哈。
+如果不是ignoreGeneratedIndex，就是如果不忽略索引，走findUsingInfo，使用索引其实就是APT提前编译注解生成代码，
+提前注册好了SubscriberInfoIndex的实现类。怎么配置索引，自己百度哈。
 
 ![image](images/image1.png)
 
