@@ -1,4 +1,3 @@
 # Android的http实现
-HttpClient
 
 HttpUrlConnection：目前Android默认只有该API

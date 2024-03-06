@@ -237,14 +237,6 @@ close一个TCP socket的缺省行为时把该socket标记为以关闭，然后�
 说了这么多了，动手实践一下。下面编写一个简单的服务器、客户端（使用TCP）——服务器端一直监听本机的6666号端口，
 如果收到连接请求，将接收请求并接收客户端发来的消息；客户端与服务器端建立连接并发送一条消息。
 
-服务器端代码：
-
-![image](images/image13.png)
-
-服务器端
-
-![image](images/image14.png)
-
 ```Plain Text
 #include<stdio.h>
 #include<stdlib.h>

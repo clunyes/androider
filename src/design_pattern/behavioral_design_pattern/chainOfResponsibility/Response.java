@@ -1,4 +1,4 @@
-package design_pattern.behavioral_design_pattern.ChainOfResponsibility;
+package design_pattern.behavioral_design_pattern.chainOfResponsibility;
 
 public class Response {
     private String responseStr;
