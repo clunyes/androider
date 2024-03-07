@@ -1,4 +1,5 @@
 MMKV 是基于 mmap 内存映射的 key-value 组件，底层序列化/反序列化使用 protobuf 实现，性能高，稳定性强。
+mmap内存映射保证了，内存和文件数据一致。
 
 ### MMKV 原理
 
