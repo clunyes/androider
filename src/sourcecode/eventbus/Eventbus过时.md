@@ -1,4 +1,4 @@
-核心就是register的时候将SubscriberMethod注册，保存到集合中，post执行事件时，查到对应方法，通过反射调用方法。
+核心就是register的时候将打了注解的方法包装成SubscriberMethod，注册保存到集合中，post执行事件时，查到对应方法，通过反射调用方法。
 unregister从集合中删除数据。
 
 目前eventbus，已经被liveData替代了。
