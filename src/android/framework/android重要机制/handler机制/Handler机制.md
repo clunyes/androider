@@ -11,3 +11,5 @@ Handler 类中封装了大部分「Handler 机制」对外的操作接口，
 在 Looper 循环中，又会不断的从 MessageQueue 取出下一条待处理的 Message 进行处理。
 
 当MQ没有消息时，线程进入阻塞态，减少消耗。
+
+使用了设计模式中的命令模式

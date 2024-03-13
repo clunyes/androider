@@ -1,4 +1,4 @@
-应用性能管理（Application Performance Management）
+APM 应用性能管理（Application Performance Management）
 该库原理涉及很底层，只适合建议，面试不适合讲。
 Matrix-android 当前监控范围包括：应用安装包大小，帧率变化，启动耗时，卡顿，慢方法，SQLite 操作优化，文件读写，内存泄漏等等。
 

@@ -1,5 +1,8 @@
 package design_pattern.structural_design_pattern.proxy.staticProxy;
 
+/**
+ * 静态代理
+ */
 public class AdminServiceProxy implements AdminService{
     private AdminService adminService;
 
