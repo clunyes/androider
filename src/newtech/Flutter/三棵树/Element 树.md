@@ -1,0 +1,8 @@
+Flutter中真正代表屏幕上显示元素的类是Element，Widget只是UI元素的一个配置数据，
+并且一个Widget可以对应多个Element。Element就是Widget在UI树具体位置的一个实例化对象，
+大多数Element只有唯一的renderObject，但还有一些Element会有多个子节点，
+如继承自RenderObjectElement的一些类，比如MultiChildRenderObjectElement。
+
+我们把 Widget 组件当作一个虚拟的组件树，而真正被渲染在屏幕上的其实是 Elememt 这棵树，
+它持有其对应 Widget 的引用，如果他对应的 Widget 发生改变，它就会被标记为 dirty Element，
+于是下一次更新视图时根据这个状态只更新被修改的内容，从而达到提升性能的效果。

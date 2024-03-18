@@ -11,7 +11,9 @@ LiveData生命周期感知能力确保 LiveData仅仅去更新那些处于生命
 和viewModel配合使用
 liveData 与 MutableLiveData 区别
       
-    LiveData是抽象类它的setValue与postValue 方法都是protected关键字, 而MutableLiveData是继承LiveData后将setValue与postValue都public了.
-    liveData对外不暴露setValue与postValue，MutableLiveData则暴露两个方法
+LiveData是抽象类它的setValue与postValue 方法都是protected关键字,
+而MutableLiveData是继承LiveData后将setValue与postValue都public了.
+
+liveData对外不暴露setValue与postValue，MutableLiveData则暴露两个方法
       
-    对LiveData封装去除粘性
+对LiveData封装去除粘性
