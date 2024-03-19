@@ -1,0 +1,1 @@
+FrameTracer 是 TracePlugin（卡顿分析插件） 的一部分.
